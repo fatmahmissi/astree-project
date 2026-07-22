@@ -145,9 +145,8 @@ def get_models():
 
         embedding_model = SentenceTransformer(
             EMBEDDING_MODEL_NAME,
-            device="cpu",
-            backend="onnx"
-        )
+            device="cpu"
+    )
         print("Connexion a ChromaDB...")
 
         chroma_client = chromadb.PersistentClient(
