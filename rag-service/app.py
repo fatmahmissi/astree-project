@@ -11,8 +11,18 @@ Lancement local :
     uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 """
 
-import json
+# ============================================================
+# IMPORTANT : ces variables d'environnement doivent etre definies
+# AVANT l'import de torch / sentence-transformers, sinon elles
+# n'ont aucun effet (les librairies lisent ces valeurs au chargement).
+# Objectif : reduire l'empreinte memoire sur les instances limitees
+# (ex. plan gratuit Render, 512 Mo de RAM).
+# ============================================================
 import os
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+import json
 import re
 import time
 import unicodedata
@@ -115,13 +125,24 @@ REGLES OBLIGATOIRES :
 # Chargement des modeles (une seule fois, au demarrage du service)
 # ============================================================
 print("Chargement du modele d'embedding...")
-embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+# device="cpu" force explicitement le CPU : evite que PyTorch reserve de la
+# memoire pour un eventuel backend GPU/CUDA absent sur Render.
+embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, device="cpu")
 
 print("Connexion a ChromaDB...")
 chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
 collection = chroma_client.get_collection(name=COLLECTION_NAME)
 
 groq_client = Groq(api_key=GROQ_API_KEY)
+
+# --- Diagnostic memoire temporaire ---
+# A retirer une fois le probleme de memoire resolu et confirme.
+try:
+    import resource
+    mem_mo = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024
+    print(f"[DIAGNOSTIC] Memoire utilisee apres chargement des modeles : {mem_mo:.1f} Mo")
+except Exception as e:
+    print(f"[DIAGNOSTIC] Impossible de mesurer la memoire : {e}")
 
 
 def charger_logs():
