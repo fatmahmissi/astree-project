@@ -1,0 +1,346 @@
+[
+  {
+    "timestamp": "2026-07-20T13:39:15.234651+00:00",
+    "question": "bonjour",
+    "answer": "Bonjour ! Comment puis-je vous aider avec ASTREE ?",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-20T13:39:29.397578+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "Pour déclarer un sinistre, vous devez le faire dès que possible, en précisant la date, les circonstances et les causes connues ou présumées de l'incident. Vous devez également fournir une description détaillée des dommages, ainsi que leur estimation.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4707608222961426
+      }
+    ],
+    "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-20T13:39:46.485443+00:00",
+    "question": "comment faire prise en charge medicaux",
+    "answer": "Pour faire prise en charge médicaux, vous devez d'abord remplir un formulaire de déclaration dûment. Ensuite, vous devez fournir des certificats médicaux ou des rapports détaillant les blessures, ainsi que des factures des frais médicaux, notamment pour les consultations, les soins spécialisés et l'achat de matériel adapté.\n\n(Source : Assurances Individuelles Accidents - https://www.astree.com.tn/fr/particulier/assurances-individuelles-accidents ; Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/entreprises-professionnels)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/assurances-individuelles-accidents",
+        "page_titre": "Assurances Individuelles Accidents",
+        "distance": 0.31160008907318115
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.4809073209762573
+      }
+    ],
+    "nb_chunks": 3
+  },
+  {
+    "timestamp": "2026-07-20T13:40:12.061509+00:00",
+    "question": "qui est jihes hanachi",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/astree/gouvernance",
+        "page_titre": "Gouvernance",
+        "distance": 0.5680170059204102
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-21T13:20:50.220929+00:00",
+    "question": "Bonjour",
+    "answer": "Bonjour ! Comment puis-je vous aider avec ASTREE ?",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-21T13:21:01.166577+00:00",
+    "question": "qui est jihed",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/assistance",
+        "page_titre": "Assistance",
+        "distance": 0.5684738755226135
+      }
+    ],
+    "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-21T13:21:15.337426+00:00",
+    "question": "combien chifffre d'affaire",
+    "answer": "Le chiffre d'affaires est de 278 millions de dinars.\n\n(Source : chiffres clés - https://www.astree.com.tn/fr/astree/chiffres-cles)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/astree/chiffres-cles",
+        "page_titre": "chiffres clés",
+        "distance": 0.5016735792160034
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-21T13:28:04.516138+00:00",
+    "question": "Quelles sont les garanties de l'assurance habitation ?",
+    "answer": "L'assurance Multirisque Habitation MENZEL + DARNA d'ASTREE Assurances offre une couverture complète et flexible pour protéger efficacement votre habitation. Elle couvre notamment les locaux et leurs dépendances, les installations et aménagements intérieurs de ces locaux, les murs de soutènements indispensables à la stabilité des bâtiments et les terrasses attenantes aux locaux d'habitation. Le contrat couvre également l'ensemble des risques et garanties nécessaires pour assurer la sécurité et tranquillité de l'assuré dans son domicile.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation ; FAQ - https://www.astree.com.tn/fr/faq ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.24872910976409912
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/faq",
+        "page_titre": "FAQ",
+        "distance": 0.26887643337249756
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.26887643337249756
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-21T13:31:17.464254+00:00",
+    "question": "Que couvre l'assurance voyage ?",
+    "answer": "L'assurance voyage couvre les imprévus tels que les annulations de vol, retards, perte de bagages ou encore les frais médicaux à l'étranger.\n\n(Source : Voyage - https://www.astree.com.tn/fr/particulier/voyage ; Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/entreprises-professionnels)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/voyage",
+        "page_titre": "Voyage",
+        "distance": 0.330843448638916
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.30662214756011963
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-21T13:34:16.546005+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "Pour déclarer un sinistre, vous devez le faire dès que possible. Vous devez préciser la date, les circonstances et les causes connues ou présumées de l'incident. Une description détaillée des dommages ainsi que leur estimation doit être fournie.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4707608222961426
+      }
+    ],
+    "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-21T13:34:23.626641+00:00",
+    "question": "comment faire",
+    "answer": "En cas de panne, appelez le service d'assistance pour que le remorqueur intervienne et vous prennez en charge.\n\n(Source : Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.595649003982544
+      }
+    ],
+    "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-21T13:34:41.696329+00:00",
+    "question": "queslle est le",
+    "answer": "Le centre d'expertise est situé à Sfax, au 46 Bis Rue Sakiet Sidi Youssef, et peut être contacté par téléphone au 31 329 204 ou par e-mail à ceasfax@astree.com.tn.\n\n(Source : Assistance - https://www.astree.com.tn/fr/assistance)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/assistance",
+        "page_titre": "Assistance",
+        "distance": 0.5905795097351074
+      }
+    ],
+    "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-21T13:34:57.665767+00:00",
+    "question": "poser vous moi",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-21T13:35:11.132828+00:00",
+    "question": "comment",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-21T13:40:31.723133+00:00",
+    "question": "comment faire ca",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-21T13:43:02.687310+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "Déclarez le sinistre dès que possible en précisant la date, les circonstances et les causes connues ou présumées de l'incident. Fournissez une description détaillée des dommages ainsi que leur estimation.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4707608222961426
+      }
+    ],
+    "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-21T13:43:19.552709+00:00",
+    "question": "quel est le contact de l'assistant",
+    "answer": "Appelez le numéro 71 104 555 pour joindre notre assistance et bénéficier des services de dépannage, 7 jours sur 7.\n\n(Source : Automobile - https://www.astree.com.tn/fr/particulier/automobile ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.4615931510925293
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.5814515352249146
+      }
+    ],
+    "nb_chunks": 4
+  },
+  {
+    "timestamp": "2026-07-21T13:45:27.764253+00:00",
+    "question": "quel est le contact de l'assistant",
+    "answer": "Appelez le numéro 71 104 555 pour joindre notre assistance et bénéficier des services de dépannage, 7 jours sur 7.\n\n(Source : Automobile - https://www.astree.com.tn/fr/particulier/automobile ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.4615931510925293
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.5814515352249146
+      }
+    ],
+    "nb_chunks": 4
+  },
+  {
+    "timestamp": "2026-07-21T13:48:07.229387+00:00",
+    "question": "comment faire une prise en charge medicaux",
+    "answer": "Pour faire une prise en charge médicale, vous devez fournir un formulaire de déclaration dûment rempli, des certificats médicaux ou rapports détaillant les blessures, ainsi que des factures des frais médicaux, notamment pour les consultations, les soins spécialisés et l'achat de matériel adapté.\n\n(Source : Assurances Individuelles Accidents - https://www.astree.com.tn/fr/particulier/assurances-individuelles-accidents ; Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/entreprises-professionnels)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/assurances-individuelles-accidents",
+        "page_titre": "Assurances Individuelles Accidents",
+        "distance": 0.31030458211898804
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.48998600244522095
+      }
+    ],
+    "nb_chunks": 3
+  },
+  {
+    "timestamp": "2026-07-21T13:50:02.715315+00:00",
+    "question": "comment faire une assurance bateau",
+    "answer": "Pour faire une assurance bateau, vous pouvez contacter ASTREE pour obtenir un contrat qui protège votre bateau contre tous les aléas de la navigation, qu'il soit d'une durée ferme ou renouvelable annuellement. ASTREE vous propose des garanties sur mesures pour assurer votre bateau à voile ou à moteur ou d'un jet ski, vous permettant de naviguer en toute sérénité. En cas de panne du moteur, le contrat vous couvre pour les réparations nécessaires, vous permettant de reprendre la mer en toute sécurité.\n\n(Source : Bateau - https://www.astree.com.tn/fr/particulier/bateau ; Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/entreprises-professionnels ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/bateau",
+        "page_titre": "Bateau",
+        "distance": 0.3883326053619385
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.5041335821151733
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.516888439655304
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-21T13:50:22.278314+00:00",
+    "question": "comment faire une assurance bateau",
+    "answer": "Pour faire une assurance bateau, vous pouvez contacter ASTREE pour obtenir un contrat qui protège votre bateau contre tous les aléas de la navigation, qu'il soit d'une durée ferme ou renouvelable annuellement. ASTREE vous propose des garanties sur mesures pour assurer votre bateau à voile ou à moteur ou d'un jet ski, vous permettant de naviguer en toute sérénité. En cas de panne du moteur, le contrat vous couvre pour les réparations nécessaires, vous permettant de reprendre la mer en toute sécurité.\n\n(Source : Bateau - https://www.astree.com.tn/fr/particulier/bateau ; Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/entreprises-professionnels ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/bateau",
+        "page_titre": "Bateau",
+        "distance": 0.3883326053619385
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.5041335821151733
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.516888439655304
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-21T13:50:49.847215+00:00",
+    "question": "comment faire une assurance bateau",
+    "answer": "Pour faire une assurance bateau, vous pouvez contacter ASTREE pour obtenir un contrat qui protège votre bateau contre tous les aléas de la navigation, qu'il soit d'une durée ferme ou renouvelable annuellement. ASTREE vous propose des garanties sur mesures pour assurer votre bateau à voile ou à moteur ou d'un jet ski, vous permettant de naviguer en toute sérénité. En cas de panne du moteur, le contrat vous couvre pour les réparations nécessaires, vous permettant de reprendre la mer en toute sécurité.\n\n(Source : Bateau - https://www.astree.com.tn/fr/particulier/bateau ; Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/entreprises-professionnels ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/bateau",
+        "page_titre": "Bateau",
+        "distance": 0.3883326053619385
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.5041335821151733
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.516888439655304
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-21T13:52:27.392371+00:00",
+    "question": "Quelles sont les garanties de l'assurance habitation ?",
+    "answer": "L'assurance Multirisque Habitation de ASTREE Assurances offre une couverture complète et flexible pour protéger efficacement votre habitation. Elle couvre notamment les locaux et leurs dépendances, les installations et aménagements intérieurs de ces locaux, les murs de soutènements indispensables à la stabilité des bâtiments et les terrasses attenantes aux locaux d'habitation.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation ; FAQ - https://www.astree.com.tn/fr/faq ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.24872910976409912
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/faq",
+        "page_titre": "FAQ",
+        "distance": 0.26887643337249756
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.26887643337249756
+      }
+    ],
+    "nb_chunks": 5
+  }
+]
