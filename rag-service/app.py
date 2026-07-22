@@ -494,18 +494,10 @@ class AskResponse(BaseModel):
 
 @app.get("/health")
 def health():
-
-    try:
-        _, col = get_models()
-        chunks = col.count()
-    except Exception:
-        chunks = 0
-
     return {
         "status": "ok",
-        "chunks_disponibles": chunks
+        "service": "running"
     }
-
 @app.get("/admin/synthese", response_class=HTMLResponse)
 def admin_synthese(limit: int = 10, top_n: int = 10):
     data = construire_synthese_admin(limit=limit, top_n=top_n)
