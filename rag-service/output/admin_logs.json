@@ -342,5 +342,49 @@
       }
     ],
     "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-22T16:49:42.126177+00:00",
+    "question": "Que faire en cas d'accident de voiture ?",
+    "answer": "Remplissez le constat amiable, déposez-le à un centre d'expertise, puis effectuez les réparations après accord de l'expert. Ramenez les factures pour la deuxième expertise et la récupération de votre chèque d'indemnisation.\n\n(Source : Automobile - https://www.astree.com.tn/fr/particulier/automobile ; Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/particuliers)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.2968021631240845
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.4297231435775757
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-22T16:54:25.166330+00:00",
+    "question": "comment declare une sinistre?",
+    "answer": "Vous devez déclarer le sinistre dès que possible, en précisant la date, les circonstances, et les causes connues ou présumées de l'incident. Une description détaillée des dommages, ainsi que leur estimation, doit être fournie.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4892784357070923
+      }
+    ],
+    "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-22T22:02:57.789774+00:00",
+    "question": "comment declare une sinistre?",
+    "answer": "Vous devez déclarer le sinistre dès que possible, en précisant la date, les circonstances, et les causes connues ou présumées de l'incident. Une description détaillée des dommages, ainsi que leur estimation, doit être fournie.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4892784357070923
+      }
+    ],
+    "nb_chunks": 1
   }
 ]
