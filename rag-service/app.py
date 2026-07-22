@@ -21,7 +21,8 @@ Lancement local :
 import os
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
+os.environ["TORCH_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
 import json
 import re
 import time
