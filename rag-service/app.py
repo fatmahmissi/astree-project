@@ -125,26 +125,45 @@ REGLES OBLIGATOIRES :
 # ============================================================
 # Chargement des modeles (une seule fois, au demarrage du service)
 # ============================================================
-print("Chargement du modele d'embedding...")
-# device="cpu" force explicitement le CPU : evite que PyTorch reserve de la
-# memoire pour un eventuel backend GPU/CUDA absent sur Render.
-embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, device="cpu")
+# ============================================================
+# Chargement lazy des modèles
+# ============================================================
 
-print("Connexion a ChromaDB...")
-chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
-collection = chroma_client.get_collection(name=COLLECTION_NAME)
+embedding_model = None
+chroma_client = None
+collection = None
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 
+
+def get_models():
+    global embedding_model, chroma_client, collection
+
+    if embedding_model is None:
+
+        print("Chargement du modele d'embedding...")
+
+        embedding_model = SentenceTransformer(
+            EMBEDDING_MODEL_NAME,
+            device="cpu"
+        )
+
+        print("Connexion a ChromaDB...")
+
+        chroma_client = chromadb.PersistentClient(
+            path=CHROMA_PATH
+        )
+
+        collection = chroma_client.get_collection(
+            name=COLLECTION_NAME
+        )
+
+        print(f"Collection chargee : {collection.count()} chunks.")
+
+    return embedding_model, collection
+
 # --- Diagnostic memoire temporaire ---
 # A retirer une fois le probleme de memoire resolu et confirme.
-try:
-    import resource
-    mem_mo = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024
-    print(f"[DIAGNOSTIC] Memoire utilisee apres chargement des modeles : {mem_mo:.1f} Mo")
-except Exception as e:
-    print(f"[DIAGNOSTIC] Impossible de mesurer la memoire : {e}")
-
 
 def charger_logs():
     if not os.path.exists(LOG_FILE):
@@ -168,7 +187,7 @@ def sauvegarder_logs():
 
 conversation_logs = charger_logs()
 
-print(f"Service pret. Collection : {collection.count()} chunks.")
+print("Service pret.")
 
 
 # ============================================================
@@ -203,8 +222,18 @@ def est_generique(url):
 
 
 def retrieve_chunks(question):
-    query_embedding = embedding_model.encode(question, normalize_embeddings=True).tolist()
-    results = collection.query(query_embeddings=[query_embedding], n_results=TOP_K_RETRIEVAL)
+
+    model, col = get_models()
+
+    query_embedding = model.encode(
+        question,
+        normalize_embeddings=True
+    ).tolist()
+
+    results = col.query(
+        query_embeddings=[query_embedding],
+        n_results=TOP_K_RETRIEVAL
+    )
 
     docs = results["documents"][0]
     metas = results["metadatas"][0]
@@ -465,8 +494,17 @@ class AskResponse(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "chunks_disponibles": collection.count()}
 
+    try:
+        _, col = get_models()
+        chunks = col.count()
+    except Exception:
+        chunks = 0
+
+    return {
+        "status": "ok",
+        "chunks_disponibles": chunks
+    }
 
 @app.get("/admin/synthese", response_class=HTMLResponse)
 def admin_synthese(limit: int = 10, top_n: int = 10):
