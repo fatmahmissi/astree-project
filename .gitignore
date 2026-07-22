@@ -1,0 +1,23 @@
+# Secrets - NE JAMAIS pousser ces fichiers
+.env
+backend/.env
+rag-service/.env
+
+# Dependances (reinstallees via npm install / pip install)
+node_modules/
+**/node_modules/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IMPORTANT : chroma_db est volontairement INCLUS (pas ignore)
