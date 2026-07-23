@@ -85,6 +85,9 @@ class AppImportTest(unittest.TestCase):
         fake_fastapi.FastAPI = DummyFastAPI
         fake_fastapi.HTTPException = DummyHTTPException
 
+        fake_fastapi_responses = types.ModuleType("fastapi.responses")
+        fake_fastapi_responses.HTMLResponse = str
+
         fake_cors = types.ModuleType("fastapi.middleware.cors")
         fake_cors.CORSMiddleware = DummyCORSMiddleware
 
@@ -102,6 +105,7 @@ class AppImportTest(unittest.TestCase):
         sys.modules["fastapi"] = fake_fastapi
         sys.modules["fastapi.middleware"] = types.ModuleType("fastapi.middleware")
         sys.modules["fastapi.middleware.cors"] = fake_cors
+        sys.modules["fastapi.responses"] = fake_fastapi_responses
         sys.modules["groq"] = fake_groq
         sys.modules["pydantic"] = fake_pydantic
         sys.modules["sentence_transformers"] = fake_sentence
