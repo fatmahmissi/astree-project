@@ -13,7 +13,7 @@ async function interrogerRAG(question, historique = []) {
     const { data } = await axios.post(
       `${RAG_SERVICE_URL}/ask`,
       { question, history: historique },
-      { timeout: 30000 } // le LLM peut prendre plusieurs secondes
+      { timeout: 60000 } // le LLM peut prendre plusieurs secondes
     );
 
     return {
