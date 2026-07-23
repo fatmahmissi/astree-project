@@ -35,9 +35,12 @@ load_dotenv()
 # ============================================================
 CHROMA_PATH = os.getenv("CHROMA_PATH", "./output/chroma_db")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME", "astree_rag_v2")
-SUPPORTED_EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+SUPPORTED_EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL", SUPPORTED_EMBEDDING_MODEL)
-if EMBEDDING_MODEL_NAME == "intfloat/multilingual-e5-small":
+if EMBEDDING_MODEL_NAME in {
+    "intfloat/multilingual-e5-small",
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+}:
     EMBEDDING_MODEL_NAME = SUPPORTED_EMBEDDING_MODEL
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
@@ -212,8 +215,10 @@ def retrieve_chunks(question):
     model = get_embedding_model()
     col = get_collection()
 
-    # Prefixe "query:" requis par le modele e5
-    query_embedding = list(model.embed(["query: " + question]))[0].tolist()
+    query_text = question
+    if "e5" in EMBEDDING_MODEL_NAME.lower():
+        query_text = "query: " + question
+    query_embedding = list(model.embed([query_text]))[0].tolist()
 
     results = col.query(
         query_embeddings=[query_embedding],
