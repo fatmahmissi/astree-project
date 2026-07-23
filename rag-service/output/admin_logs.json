@@ -386,5 +386,284 @@
       }
     ],
     "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-23T14:58:52.292567+00:00",
+    "question": "Quelles sont les garanties de l'assurance habitation ?",
+    "answer": "L'assurance Multirisque Habitation de ASTREE Assurances offre une couverture complète et flexible pour protéger efficacement votre habitation. Elle couvre notamment les locaux et leurs dépendances, les installations et aménagements intérieurs de ces locaux, les murs de soutènements indispensables à la stabilité des bâtiments et les terrasses attenantes aux locaux d'habitation.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation ; FAQ - https://www.astree.com.tn/fr/faq ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.39686691761016846
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/faq",
+        "page_titre": "FAQ",
+        "distance": 0.4735206365585327
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.4735206365585327
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-23T14:59:51.032329+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T15:00:17.451378+00:00",
+    "question": "comment declare une sinistre auto",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T15:00:42.224211+00:00",
+    "question": "quel est le contact d'assistant",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T15:01:18.467500+00:00",
+    "question": "quel est numero telephone d'assistant",
+    "answer": "Le numéro de téléphone de l'assistant est: (+216) 71 90 42 11.\n\n(Source : Contact - https://www.astree.com.tn/fr/contact)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/contact",
+        "page_titre": "Contact",
+        "distance": 0.581515371799469
+      }
+    ],
+    "nb_chunks": 1
+  },
+  {
+    "timestamp": "2026-07-23T15:01:32.714014+00:00",
+    "question": "combien le chiffre d'affaire",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T15:02:01.389828+00:00",
+    "question": "quel est chiffre d'affaire clé",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T15:25:36.536521+00:00",
+    "question": "Comment déclarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/garanties-des-accidents-de-la-vie",
+        "page_titre": "Garanties des Accidents de la Vie",
+        "distance": 0.344582200050354
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.344582200050354
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:12:22.204258+00:00",
+    "question": "Comment déclarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/garanties-des-accidents-de-la-vie",
+        "page_titre": "Garanties des Accidents de la Vie",
+        "distance": 0.344582200050354
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.344582200050354
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:17:52.186893+00:00",
+    "question": "Comment déclarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/garanties-des-accidents-de-la-vie",
+        "page_titre": "Garanties des Accidents de la Vie",
+        "distance": 0.344582200050354
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.344582200050354
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:20:03.566064+00:00",
+    "question": "Comment declarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4005197286605835
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.40998464822769165
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:23:05.475215+00:00",
+    "question": "Comment declarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4005197286605835
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.40998464822769165
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:24:10.094935+00:00",
+    "question": "Comment declarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4005197286605835
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.40998464822769165
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:24:57.802490+00:00",
+    "question": "Comment declarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4005197286605835
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.40998464822769165
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:28:14.556128+00:00",
+    "question": "Comment declarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4005197286605835
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.40998464822769165
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:32:30.755357+00:00",
+    "question": "Comment declarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4005197286605835
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.40998464822769165
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T16:54:21.195213+00:00",
+    "question": "comment faire une prise en charge medicaux",
+    "answer": "Pour faire une prise en charge médicale, vous pouvez contacter ASTREE pour les assurances individuelles accidents. Selon les informations disponibles, ASTREE prend en charge les frais médicaux, notamment les consultations, les soins spécialisés et l'achat de matériel adapté.\n\n(Source : Assurances Individuelles Accidents - https://www.astree.com.tn/fr/particulier/assurances-individuelles-accidents ; Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/entreprises-professionnels ; Nos agences - https://www.astree.com.tn/fr/agences)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/assurances-individuelles-accidents",
+        "page_titre": "Assurances Individuelles Accidents",
+        "distance": 0.16672974824905396
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.2703932523727417
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.23132061958312988
+      }
+    ],
+    "nb_chunks": 3
+  },
+  {
+    "timestamp": "2026-07-23T16:54:35.408618+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/materiel-informatique",
+        "page_titre": "Matériel informatique",
+        "distance": 0.400381863117218
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.4025081992149353
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/faq",
+        "page_titre": "FAQ",
+        "distance": 0.4025081992149353
+      }
+    ],
+    "nb_chunks": 3
   }
 ]

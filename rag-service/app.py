@@ -1,28 +1,18 @@
-"""
-Micro-service FastAPI qui expose le pipeline RAG (deja construit dans le
-notebook rag_chatbot_astree_v3.ipynb) comme une API HTTP.
-
-Node.js appelle cette API au lieu de relancer Python a chaque question
-(trop lent) -- le modele d'embedding et ChromaDB restent charges en memoire
-pendant toute la duree de vie du service.
+﻿"""
+Micro-service FastAPI RAG pour ASTREE Assurances.
+Utilise fastembed (sans torch) pour reduire l'empreinte memoire sur Render.
 
 Lancement local :
-    pip install -r requirements.txt --break-system-packages
+    pip install -r requirements.txt
     uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 """
 
-# ============================================================
-# IMPORTANT : ces variables d'environnement doivent etre definies
-# AVANT l'import de torch / sentence-transformers, sinon elles
-# n'ont aucun effet (les librairies lisent ces valeurs au chargement).
-# Objectif : reduire l'empreinte memoire sur les instances limitees
-# (ex. plan gratuit Render, 512 Mo de RAM).
-# ============================================================
 import os
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["TORCH_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
+
 import json
 import re
 import time
@@ -37,16 +27,15 @@ from fastapi.responses import HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 from groq import Groq
 from pydantic import BaseModel
-from sentence_transformers import SentenceTransformer
 
 load_dotenv()
 
 # ============================================================
-# Config (identique au notebook RAG)
+# Config
 # ============================================================
 CHROMA_PATH = os.getenv("CHROMA_PATH", "./output/chroma_db")
-COLLECTION_NAME = os.getenv("COLLECTION_NAME", "astree_rag")
-EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL", "paraphrase-multilingual-MiniLM-L12-v2")
+COLLECTION_NAME = os.getenv("COLLECTION_NAME", "astree_rag_v2")
+EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL", "intfloat/multilingual-e5-small")
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
@@ -123,47 +112,43 @@ REGLES OBLIGATOIRES :
 """
 
 # ============================================================
-# Chargement des modeles (une seule fois, au demarrage du service)
+# LAZY LOADING â€” modeles charges a la premiere requete uniquement
 # ============================================================
-# ============================================================
-# Chargement lazy des modèles
-# ============================================================
-
-embedding_model = None
-chroma_client = None
-collection = None
-
-groq_client = Groq(api_key=GROQ_API_KEY)
+_embedding_model = None
+_chroma_collection = None
+_groq_client = None
 
 
-def get_models():
-    global embedding_model, chroma_client, collection
+def get_embedding_model():
+    global _embedding_model
+    if _embedding_model is None:
+        print("Chargement du modele d'embedding (fastembed)...")
+        from fastembed import TextEmbedding
+        _embedding_model = TextEmbedding(model_name=EMBEDDING_MODEL_NAME)
+        print("Modele d'embedding charge.")
+    return _embedding_model
 
-    if embedding_model is None:
 
-        print("Chargement du modele d'embedding...")
-
-        embedding_model = SentenceTransformer(
-            EMBEDDING_MODEL_NAME,
-            device="cpu"
-    )
+def get_collection():
+    global _chroma_collection
+    if _chroma_collection is None:
         print("Connexion a ChromaDB...")
+        client = chromadb.PersistentClient(path=CHROMA_PATH)
+        _chroma_collection = client.get_collection(name=COLLECTION_NAME)
+        print(f"Collection chargee : {_chroma_collection.count()} chunks.")
+    return _chroma_collection
 
-        chroma_client = chromadb.PersistentClient(
-            path=CHROMA_PATH
-        )
 
-        collection = chroma_client.get_collection(
-            name=COLLECTION_NAME
-        )
+def get_groq_client():
+    global _groq_client
+    if _groq_client is None:
+        _groq_client = Groq(api_key=GROQ_API_KEY)
+    return _groq_client
 
-        print(f"Collection chargee : {collection.count()} chunks.")
 
-    return embedding_model, collection
-
-# --- Diagnostic memoire temporaire ---
-# A retirer une fois le probleme de memoire resolu et confirme.
-
+# ============================================================
+# Logs
+# ============================================================
 def charger_logs():
     if not os.path.exists(LOG_FILE):
         return []
@@ -186,11 +171,11 @@ def sauvegarder_logs():
 
 conversation_logs = charger_logs()
 
-print("Service pret.")
+print("Service pret (modeles charges a la premiere requete).")
 
 
 # ============================================================
-# Fonctions RAG (reprises du notebook)
+# Fonctions RAG
 # ============================================================
 def _normaliser(txt):
     txt = txt.lower()
@@ -221,13 +206,11 @@ def est_generique(url):
 
 
 def retrieve_chunks(question):
+    model = get_embedding_model()
+    col = get_collection()
 
-    model, col = get_models()
-
-    query_embedding = model.encode(
-        question,
-        normalize_embeddings=True
-    ).tolist()
+    # Prefixe "query:" requis par le modele e5
+    query_embedding = list(model.embed(["query: " + question]))[0].tolist()
 
     results = col.query(
         query_embeddings=[query_embedding],
@@ -343,6 +326,7 @@ def nettoyer_reponse(reponse):
 
 
 def generate_answer(question, context, chunks, history=None):
+    client = get_groq_client()
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
     if history:
         for h in history[-5:]:
@@ -364,7 +348,7 @@ Je n'ai pas trouve cette information dans la documentation ASTREE.
 """
     messages.append({"role": "user", "content": prompt})
 
-    response = groq_client.chat.completions.create(
+    response = client.chat.completions.create(
         model=GROQ_MODEL,
         messages=messages,
         max_tokens=MAX_TOKENS,
@@ -455,14 +439,22 @@ def construire_synthese_admin(limit=10, top_n=10):
     }
 
 
+def escape_html(value):
+    return (str(value)
+            .replace('&', '&amp;')
+            .replace('<', '&lt;')
+            .replace('>', '&gt;')
+            .replace('"', '&quot;'))
+
+
 # ============================================================
 # API FastAPI
 # ============================================================
-app = FastAPI(title="ASTREE RAG Service", version="1.0.0")
+app = FastAPI(title="ASTREE RAG Service", version="2.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # a restreindre en production (domaine du backend Node)
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -493,10 +485,9 @@ class AskResponse(BaseModel):
 
 @app.get("/health")
 def health():
-    return {
-        "status": "ok",
-        "service": "running"
-    }
+    return {"status": "ok", "service": "astree-rag-v2"}
+
+
 @app.get("/admin/synthese", response_class=HTMLResponse)
 def admin_synthese(limit: int = 10, top_n: int = 10):
     data = construire_synthese_admin(limit=limit, top_n=top_n)
@@ -529,7 +520,7 @@ def admin_synthese(limit: int = 10, top_n: int = 10):
     <html>
       <head>
         <meta charset="utf-8" />
-        <title>Rapport de synthèse ASTREE</title>
+        <title>Rapport de synthÃ¨se ASTREE</title>
         <style>
           :root {{ color-scheme: light; }}
           body {{ font-family: Inter, system-ui, sans-serif; margin: 0; background: #eff4fb; color: #1a2930; }}
@@ -549,11 +540,6 @@ def admin_synthese(limit: int = 10, top_n: int = 10):
           th, td {{ padding: 14px 12px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }}
           th {{ text-align: left; background: #f8fbff; color: #1f4e79; font-weight: 700; }}
           tbody tr:hover {{ background: #f7fbff; }}
-          td code {{ white-space: pre-wrap; word-break: break-word; color: #334e68; }}
-          .grid-list {{ display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }}
-          .list-card {{ background: #f8fbff; padding: 16px 18px; border-radius: 16px; border: 1px solid #e2ecf8; }}
-          .list-card strong {{ display: block; margin-bottom: 8px; color: #1f4e79; }}
-          .list-card span {{ color: #486581; font-size: 0.95rem; }}
           .empty {{ color: #7b8a99; font-style: italic; }}
           @media (max-width: 860px) {{ .header {{ flex-direction: column; align-items: stretch; }} table {{ font-size: 0.92rem; }} }}
         </style>
@@ -562,51 +548,33 @@ def admin_synthese(limit: int = 10, top_n: int = 10):
         <div class="container">
           <div class="header">
             <div class="hero">
-              <h1>Rapport de synthèse ASTREE</h1>
-              <p>Vue administrative des interactions utilisateur, des questions fréquentes et des réponses LLM.</p>
+              <h1>Rapport de synthÃ¨se ASTREE</h1>
+              <p>Vue administrative des interactions utilisateur.</p>
             </div>
             <div class="stats">
-              <div class="stat-card"><strong>{data.get('total_interactions', 0)}</strong><span>Interactions enregistrées</span></div>
-              <div class="stat-card"><strong>{len(top_questions)}</strong><span>Questions fréquentes</span></div>
-              <div class="stat-card"><strong>{len(recent)}</strong><span>Conversations récentes</span></div>
+              <div class="stat-card"><strong>{data.get('total_interactions', 0)}</strong><span>Interactions enregistrÃ©es</span></div>
+              <div class="stat-card"><strong>{len(top_questions)}</strong><span>Questions frÃ©quentes</span></div>
+              <div class="stat-card"><strong>{len(recent)}</strong><span>Conversations rÃ©centes</span></div>
             </div>
           </div>
-
           <div class="card">
-            <h2>Questions les plus fréquentes</h2>
-            <p class="section-note">Les questions les plus posées par les visiteurs, triées par fréquence.</p>
-            {f'<div class="grid-list">{rows_top}</div>' if rows_top else '<p class="empty">Aucune question enregistrée pour le moment.</p>'}
-          </div>
-
-          <div class="card">
-            <h2>Conversations récentes</h2>
-            <p class="section-note">Dernières interactions capturées avec la question, la réponse et les sources associées.</p>
+            <h2>Questions les plus frÃ©quentes</h2>
             <table>
-              <thead>
-                <tr>
-                  <th>Horodatage</th>
-                  <th>Question</th>
-                  <th>Réponse</th>
-                  <th>Sources</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rows_recent if rows_recent else '<tr><td colspan="4" class="empty">Aucune conversation récente.</td></tr>'}
-              </tbody>
+              <thead><tr><th>Question</th><th>Nb</th></tr></thead>
+              <tbody>{rows_top if rows_top else '<tr><td colspan="2" class="empty">Aucune question.</td></tr>'}</tbody>
+            </table>
+          </div>
+          <div class="card">
+            <h2>Conversations rÃ©centes</h2>
+            <table>
+              <thead><tr><th>Horodatage</th><th>Question</th><th>RÃ©ponse</th><th>Sources</th></tr></thead>
+              <tbody>{rows_recent if rows_recent else '<tr><td colspan="4" class="empty">Aucune conversation.</td></tr>'}</tbody>
             </table>
           </div>
         </div>
       </body>
     </html>
     """
-
-
-def escape_html(value):
-    return (str(value)
-            .replace('&', '&amp;')
-            .replace('<', '&lt;')
-            .replace('>', '&gt;')
-            .replace('"', '&quot;'))
 
 
 @app.post("/ask", response_model=AskResponse)
@@ -619,7 +587,12 @@ def ask_endpoint(payload: AskRequest):
     reponse, chunks = ask(payload.question, history)
     duree_ms = int((time.time() - debut) * 1000)
 
-    sources = construire_sources(chunks)
+    reponse_norm = _normaliser_accents(reponse)
+    est_refus = (
+        _normaliser_accents(REFUS_EXACT) == reponse_norm
+        or _normaliser_accents(HORS_SUJET_EXACT.split("\n")[0]) in reponse_norm
+    )
+    sources = [] if est_refus else construire_sources(chunks)
     enregistrer_interaction(payload.question, reponse, chunks, sources=sources)
 
     return {

@@ -1,0 +1,2360 @@
+[
+  {
+    "url": "https://www.astree.com.tn/fr/agences",
+    "titre": "Nos agences",
+    "telephone": "74 207 600",
+    "date_scraping": "2026-07-09 15:34",
+    "introduction": {
+      "desc1": "Consultez notre liste de questions fréquemment posées pour obtenir des clarifications sur nos offres et services.",
+      "desc2": "Nous avons regroupé les informations essentielles pour vous aider."
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [
+      {
+        "question": "Qu'est-ce qui est couvert par l'assurance auto tous risques ?",
+        "reponse": "Nous recommandons de commencer par évaluer vos besoins spécifiques en matière de protection et de sécurité. Utilisez notre simulateur en ligne pour comparer les options disponibles et obtenir des recommandations personnalisées."
+      },
+      {
+        "question": "Que dois-je faire pour assurer mon véhicule ?",
+        "reponse": "Afin d’assurer votre véhicule, Vous êtes invités à nous fournir les pièces suivantes : Une copie de la carte grise, Remplir un formulaire de déclaration de risque tout en précisant les garanties souhaitées et un relevé Bonus/Malus, sauf pour les jeunes conducteurs, délivré obligatoirement par votre ancien assureur Une copie de l’attestation délivrée lors de la visite technique pour les véhicules âgés de plus de trois ans. Une copie de la quittance de règlement de la taxe de circulation de l’année en cours"
+      },
+      {
+        "question": "Quels sont les biens couverts par un contrat d’assurance Multirisques Habitation ?",
+        "reponse": "Sont couverts par la présente assurance : Les locaux et leurs dépendances Les installations et aménagements intérieurs de ces locaux Les murs de soutènements indispensables à la stabilité des bâtiments Les terrasses attenantes aux locaux d’habitation"
+      },
+      {
+        "question": "Comment est calculée la prime d'assurance ?",
+        "reponse": "Elle est déterminée en fonction de critères comme le montant du prêt, la durée, votre âge, et votre état de santé."
+      },
+      {
+        "question": "Puis-je modifier ma couverture en cours de contrat ?",
+        "reponse": "Oui, il est possible d’ajuster vos garanties en contactant notre service client."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "Certification MSI 20000 ®️",
+        "contenu": "25  juin,  2026 Certification MSI 20000 ®️"
+      },
+      {
+        "titre": "SALON AUTO-EXPO SOUSSE",
+        "contenu": "12  novembre,  2025 SALON AUTO-EXPO SOUSSE"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - Madame Oumayma BETBOUT",
+        "contenu": "24  octobre,  2025 Témoignage de notre Agent Général - Madame Oumayma BETBOUT"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - M. Chokri ABID",
+        "contenu": "26  septembre,  2025 Témoignage de notre Agent Général - M. Chokri ABID"
+      },
+      {
+        "titre": "Assemblée Général Ordinaire - juin 2025",
+        "contenu": "23  juin,  2025 Assemblée Général Ordinaire - juin 2025"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/assistance",
+    "titre": "Assistance",
+    "telephone": "+21671 104 555",
+    "date_scraping": "2026-07-09 02:55",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [
+      {
+        "titre": "CENTRE D'EXPERTISE DE TUNIS",
+        "contenu": "Immeuble ASTREE, Rue du Lac d'Annecy, 1035 Les Berges du Lac - TunisTél :31 329 200Mail :cea@astree.com.tn"
+      },
+      {
+        "titre": "CENTRE D'EXPERTISE DE SOUSSE",
+        "contenu": "Local N°3 de l'Immeuble FAKHFAKH, Boulevard Ibn Khaldoun (En face de la Protection Civile) - 4060 SousseTél :31 304 241Mail :cea.sousse@astree.com.tn"
+      },
+      {
+        "titre": "CENTRE D'EXPERTISE DE SFAX",
+        "contenu": "46 Bis Rue Sakiet Sidi Youssef - SfaxTél :31 329 204Mail :cea.sfax@astree.com.tn"
+      }
+    ],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/astree/presentation",
+    "titre": "Présentation",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:55",
+    "introduction": {
+      "desc1": "Chez ASTREE Assurances, notre intégrité est le pilier de notre relation avec le client.",
+      "desc2": "Chaque interaction, qu'il s'agisse d'une simple question ou d'une décision complexe, est guidée par notre volonté d’être transparent et honnête."
+    },
+    "garanties": [
+      {
+        "titre": "Intégrité",
+        "texte": "Le Pilier de la Confiance Chez ASTREE Assurances, notre intégrité est le pilier de notre relation avec le client. Chaque interaction, qu'il s'agisse d'une simple question ou d'une décision complexe, est guidée par notre volonté d’être transparent et honnête."
+      },
+      {
+        "titre": "Innovation",
+        "texte": "Toujours Un Pas d’Avance Dans un monde en constante évolution, ASTREE se distingue par sa capacité à innover. Nous investissons dans des technologies et des solutions modernes pour vous offrir des services rapides, efficaces et adaptés à votre quotidien. Avec ASTREE, vous avez l’assurance d’une protection qui évolue avec votre monde."
+      },
+      {
+        "titre": "Responsabilité",
+        "texte": "L’engagement pour un Avenir Sûr Nous plaçons la responsabilité au cœur de toutes nos actions. Chez ASTREE, notre mission est de vous offrir des solutions fiables qui répondent à vos besoins tout en respectant des standards élevés d’éthique et de durabilité. Nous assumons pleinement notre rôle en vous accompagnant à chaque étape de votre parcours."
+      },
+      {
+        "titre": "Proximité",
+        "texte": "Votre Assurance, Toujours à Vos Côtés Chez ASTREE, la proximité est bien plus qu’une simple valeur : C’est un engagement. Nous comprenons que chaque client est unique, avec des besoins spécifiques. C’est pourquoi nous cultivons une relation basée sur l’écoute et la compréhension. Être proche de vous signifie être disponible, accessible et toujours prêt à répondre à vos attentes, que ce soit dans les moments de succès ou face aux imprévus."
+      },
+      {
+        "titre": "1949",
+        "texte": "Création de la compagnie ASTREE En octobre 1949, la Compagnie Franco-tunisienne d'Assurances Tous Risques et de Réassurances (ASTREE) fut fondée pour répondre à la croissance des besoins en assurance en Tunisie, notamment dans les secteurs industriels, commerciaux et immobiliers. Elle proposait des solutions d'assurances tous risques et de réassurance, jouant un rôle clé dans la gestion des risques à une époque de transition économique. Naissance d’ASTREE Assurances, une étoile s’illumine"
+      },
+      {
+        "titre": "1988",
+        "texte": "Fusion d’ASTREE avec la société DHAMEN – UAP En 1988, ASTREE Assurances a marqué un tournant important dans le secteur des assurances en Tunisie en absorbant la société DHAMEN-UAP (Union des Assurances de Paris). Cette opération a permis à ASTREE Assurances de renforcer sa présence sur le marché tunisien en intégrant DHAMEN, une société locale bien établie. La fusion a eu pour objectif de consolider les ressources, élargir l'offre de produits d'assurances et optimiser les services à destination des particuliers et des entreprises. ASTREE, déjà un acteur majeur dans le secteur, a ainsi élargi son réseau et ses capacités, tout en bénéficiant de l'expertise locale de DHAMEN. Cette consolidation a contribué à une meilleure compétitivité sur un marché de plus en plus dynamique et en pleine expansion. Naissance d'ASTREE, une étoile s'Illumine"
+      },
+      {
+        "titre": "1991",
+        "texte": "Première compagnie d’assurances en Tunisie introduite en bourse En décembre 1991, ASTREE Assurances a procédé à son introduction en bourse, marquant une étape majeure dans son développement et dans l'essor du marché financier tunisien. Cette opération a permis à ASTREE Assurances de lever des fonds pour financer sa croissance, tout en élargissant son actionnariat et en renforçant sa visibilité sur le marché. L'introduction en bourse a également constitué un signal fort de transparence pour ASTREE, qui cherchait à se positionner comme un acteur clé dans le secteur des assurances. Naissance d'ASTREE, une étoile s'Illumine"
+      },
+      {
+        "titre": "2005",
+        "texte": "ASTREE fait partie du Groupe Banque de Tunisie En 2005, la Banque de Tunisie devient actionnaire majoritaire dans le capital d'ASTREE Assurances. Cette intégration a permis à ASTREE de bénéficier d’un solide réseau financier et des ressources du groupe bancaire, renforçant ainsi sa position sur le marché tunisien des assurances. La synergie BT-ASTREE a offert au Groupe Banque de Tunisie une plus grande stabilité financière et une capacité accrue de développer des produits de bancassurance. Naissance d'ASTREE, une étoile s'Illumine"
+      }
+    ],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "60% Groupe Banque de Tunisie"
+      },
+      {
+        "titre": "",
+        "contenu": "30 % Groupe des Assurances du Crédit Mutuel"
+      },
+      {
+        "titre": "",
+        "contenu": "10% Autres"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/astree/rse-esg",
+    "titre": "RSE - ESG",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:56",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [
+      {
+        "question": "Gouvernance Éthique",
+        "reponse": "Nous nous engageons à garantir une gouvernance transparente et responsable, en respectant les principes d'intégrité, de responsabilité et d'éthique dans toutes nos actions."
+      },
+      {
+        "question": "Préservation de l’Environnement",
+        "reponse": "Nous mettons en œuvre des initiatives visant à réduire notre empreinte écologique, à promouvoir la gestion durable des ressources naturelles et à minimiser les impacts environnementaux."
+      },
+      {
+        "question": "Bien-être Social",
+        "reponse": "Nous œuvrons pour l’amélioration des conditions de travail, la promotion de la diversité et l'inclusion, en assurant un environnement respectueux et équitable pour tous."
+      },
+      {
+        "question": "Développement Économique Durable",
+        "reponse": "Nous soutenons une croissance économique durable en favorisant des pratiques responsables, en encourageant l'innovation et en intégrant les enjeux sociaux et environnementaux dans notre modèle économique."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Générosité et engagement de nos employés lors d'une séance de collecte de sang voir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "Quand le sport et plaisir s’allient avec la bonne cause et l’engagement voir"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particuliers",
+    "titre": "Protections Complètes pour Tous Vos Biens",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:56",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      },
+      {
+        "titre": "",
+        "contenu": "Prévoyance Anticipez les aléas de la vie avec confiance et apportez à vos proches une protection financière primordiale"
+      },
+      {
+        "titre": "",
+        "contenu": "Assurances Individuelles Accidents Ne laissez pas un accident définir votre vie : choisissez notre Assurance Individuelle Accident pour une tranquillité d’esprit"
+      },
+      {
+        "titre": "",
+        "contenu": "Assurances Individuelles Scolaire Les petits pas nécessitent des grandes protections : offrez à votre enfant l’assurance qu’il mérite"
+      },
+      {
+        "titre": "",
+        "contenu": "Garanties des Accidents de la Vie ASTREE vous propose une panoplie de garanties contre les accidents de la vie pour rester toujours à l’abris"
+      },
+      {
+        "titre": "",
+        "contenu": "Prévoyance & Epargne Retraite Avec nos solutions de Prévoyance & Epargne Retraite, bénéficiez d’un cadre fiscal avantageux tout en garantissant une sécurité financière"
+      },
+      {
+        "titre": "",
+        "contenu": "Avenir de mes enfants Assurez l’avenir éducatif de vos enfants et découvrez nos plans d’épargne qui vous ouvriront toutes les portes"
+      },
+      {
+        "titre": "",
+        "contenu": "Epargne Faites fructifier votre épargne à un taux de rendement très performant et profiter d’une fiscalité réduite"
+      },
+      {
+        "titre": "",
+        "contenu": "Garantie prêt Notre Assurance Emprunteur vous garantit la protection financière pour chaque étape de vos projets de vie"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Relation de Confiance Durable Choisir ASTREE, c'est établir une relation basée sur la proximité, la transparence et l’engagement pour toujours mieux vous accompagner. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Innovation au Cœur de Nos Services Choisir ASTREE, c'est profiter d’outils modernes et performants pour simplifier vos démarches et vous assurer une expérience fluide et efficace. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Expertise Qui Fait la Différence Choisir ASTREE, c'est bénéficier d’un savoir-faire éprouvé pour vous offrir des solutions fiables et adaptées à vos besoins spécifiques. Trouver votre agence"
+      },
+      {
+        "titre": "Certification MSI 20000 ®️",
+        "contenu": "25  juin,  2026 Certification MSI 20000 ®️"
+      },
+      {
+        "titre": "SALON AUTO-EXPO SOUSSE",
+        "contenu": "12  novembre,  2025 SALON AUTO-EXPO SOUSSE"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - Madame Oumayma BETBOUT",
+        "contenu": "24  octobre,  2025 Témoignage de notre Agent Général - Madame Oumayma BETBOUT"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - M. Chokri ABID",
+        "contenu": "26  septembre,  2025 Témoignage de notre Agent Général - M. Chokri ABID"
+      },
+      {
+        "titre": "Assemblée Général Ordinaire - juin 2025",
+        "contenu": "23  juin,  2025 Assemblée Général Ordinaire - juin 2025"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/voyage",
+    "titre": "Voyage",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:56",
+    "introduction": {
+      "desc1": "Avec notre assurance assistance au voyage à l’étranger et le soutien d’EUROP Assistance, leader mondial, voyagez en toute sécurité où que vous soyez.",
+      "desc2": "Nous vous proposons un contrat d’assurance voyage conçu pour vous accompagner lors de vos déplacements à l’étranger. Où que vous soyez, notre prestigieux partenaire, EUROP Assistance, est à vos côtés pour vous apporter son soutien en cas de situations difficiles."
+    },
+    "garanties": [
+      {
+        "titre": "Durée du contrat",
+        "texte": "Le contrat peut être souscrit pour une durée temporaire (couvrant la période exacte du voyage qui ne doit pas excéder les 90 jours successifs ) ou pour une année entière si vous voyagez fréquemment."
+      },
+      {
+        "titre": "Modalités de souscription",
+        "texte": "Le contrat peut être souscrit à titre « individuel », en «Couple sans enfants», en «Famille » ou en «Groupes & Sociétés ». Les informations de base nécessaires incluent la durée du voyage, la destination, l’âge de l’assuré et éventuellement des informations médicales si exigées. Après acceptation, l’assuré reçoit une attestation d’assurance et les détails de sa couverture (plafonds, exclusions, numéros d’urgence)."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Prise en charge médicale immédiate",
+        "contenu": "Couverture des frais médicaux et d'hospitalisation, sans avance de fonds nécessaire dans de nombreux cas, pour garantir un accès rapide aux soins en cas de besoin avec un remboursement qui peut atteindre les30.000 €."
+      },
+      {
+        "titre": "Couverture des Frais Médicaux à l'Étranger",
+        "contenu": "Une couverture des frais médicaux consécutifs à un accident ou une maladie survenant au cours de votre voyage."
+      },
+      {
+        "titre": "Assistance Médicale et Rapatriement",
+        "contenu": "Une assistance médicale comprenant le rapatriement ou l'acheminement vers un centre hospitalier spécialisé."
+      },
+      {
+        "titre": "Soutien pour la Venue d’un Proche",
+        "contenu": "Une prise en charge des frais de déplacement à l’étranger d'un proche parent pour se rendre au chevet du malade ou du blessé hospitalisé pendant plus de 7 jours (48 H pour votre enfant) et les frais de séjour sont pris en charge."
+      },
+      {
+        "titre": "Rapatriement en Cas de Décès",
+        "contenu": "Une prise en charge des frais de rapatriement en cas de décès de l’assuré à l’étranger. L’opération inverse est également garantie par le contrat ASTREE-EUROP ASSISTANCE qui peut couvrir les frais de déplacement engagés par un assuré qui se voit faire un retour anticipé de l’étranger suite à l’hospitalisation imprévue ou le décès d’un proche membre de sa famille en Tunisie."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Accès rapide à l'assistance",
+        "texte": "Un service d’assistance disponible 24h/24 et 7j/7 pour signaler le sinistre et recevoir des instructions précises, pour joindre EUROP ASSISTANCE depuis l'étranger, composez le 00 33 1 41 85 85 85"
+      },
+      {
+        "titre": "Remboursements des frais",
+        "texte": "Remettre à votre agence les documents justifiants les frais engendrés par les prestations faites pour bénéficier des remboursements nécessaires."
+      }
+    ],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      },
+      {
+        "titre": "",
+        "contenu": "Prévoyance Anticipez les aléas de la vie avec confiance et apportez à vos proches une protection financière primordiale"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/habitation",
+    "titre": "Habitation",
+    "telephone": "+216 71 104 580",
+    "date_scraping": "2026-07-09 02:56",
+    "introduction": {
+      "desc1": "L'assurance Multirisque Habitation MENZEL + DARNA d'ASTREE Assurances vous offre une couverture complète et flexible pour protéger efficacement votre habitation, que vous soyez propriétaire ou locataire, dans un appartement ou une villa.",
+      "desc2": "Avec des primes d’assurances compétitives et ajustables en fonction de vos besoins, la Multirisque Habitation MENZEL + DARNA vous garantit une couverture optimale à un coût maîtrisé. Cette solution offre une protection efficace contre de nombreux risques, vous assurant ainsi une tranquillité d'esprit au quotidien."
+    },
+    "garanties": [
+      {
+        "titre": "Dommages aux biens",
+        "texte": "Incendie et événements assimilés (foudre, explosions, etc.). Vol, dégâts des eaux, bris de glaces, etc. Voyages et villégiatures : Couverture des dommages survenus pendant vos déplacements."
+      },
+      {
+        "titre": "Pertes pécuniaires et frais complémentaires",
+        "texte": "Privation de jouissance, pertes de loyers. Frais d’honoraires d’expert, recherche de fuite, infiltration d’eaux par les toitures, etc."
+      },
+      {
+        "titre": "Biens assurés supplémentaires",
+        "texte": "Dommages aux piscines, installations de jardin, émeutes, mouvements populaires, actes de terrorisme, sabotages, phénomènes naturels, etc."
+      },
+      {
+        "titre": "Responsabilité civile",
+        "texte": "pour le propriétaire ou chef de famille, ainsi que pour le conjoint, les personnes à charge, les employés de maison et les animaux domestiques en cas de dommages corporels ou matériels causés à autrui."
+      },
+      {
+        "titre": "Frais de défense et recours",
+        "texte": "Prise en charge des frais juridiques nécessaires à la défense de vos intérêts en cas de conflit ou recours."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Valeur de reconstruction à neuf",
+        "contenu": "La garantie de reconstruction à neuf du bâtiment et de remplacement à neuf des biens mobiliers et effets personnels au jour du sinistre."
+      },
+      {
+        "titre": "Couverture complète",
+        "contenu": "Le contrat couvre l'ensemble des risques et garanties nécessaires pour assurer la sécurité et tranquillité de l’assuré dans son domicile."
+      },
+      {
+        "titre": "Limites de couverture ajustables",
+        "contenu": "Possibilité d’ajuster les limites des garanties selon les besoins spécifiques et les préférences de l’assuré."
+      },
+      {
+        "titre": "Assistance Domiciliaire",
+        "contenu": "Garantie d’assistance à domicile pour les réparations urgentes en cas de sinistre : plomberie, serrurerie, vitrerie, électricité, etc."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Déclaration du sinistre",
+        "texte": "Vous devez déclarer le sinistre dès que possible, en précisant la date, les circonstances, et les causes connues ou présumées de l’incident. Une description détaillée des dommages, ainsi que leur estimation, doit être fournie."
+      },
+      {
+        "titre": "Prendre des mesures pour limiter les pertes",
+        "texte": "Il est important de prendre toutes les mesures nécessaires pour éviter l’aggravation de la situation et limiter les pertes supplémentaires. Cela peut inclure la sécurisation des lieux ou l’intervention de professionnels pour réduire les dégâts."
+      },
+      {
+        "titre": "Documents justificatifs",
+        "texte": "Afin d’assurer une gestion rapide de votre dossier, vous devrez fournir les documents suivants : un rapport détaillant les circonstances du sinistre, ainsi que toute autre pièce justificative requise par votre assureur."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Qui peut souscrire une assurance habitation ?",
+        "reponse": "Que vous soyez propriétaire ou locataire, dans un appartement ou une villa, l'assurance Multirisque Habitation vous permet de protéger efficacement votre habitation."
+      },
+      {
+        "question": "Que faire en cas de sinistre ?",
+        "reponse": "Il est essentiel de prendre toutes les mesures nécessaires pour limiter l'ampleur du sinistre et préserver les biens assurés. Dans un délai de 30 jours, vous devez fournir à l’assureur un état estimatif détaillé des pertes, certifié sincèrement et signé. Informez également l’assureur de l’endroit où les dommages peuvent être constatés et veillez à ne procéder à aucune réparation avant la vérification par l’assureur. Enfin, communiquez tous les documents nécessaires à l’expertise sur demande de ce dernier."
+      },
+      {
+        "question": "Comment fonctionne l'Assistance Domiciliaire ?",
+        "reponse": "En cas de sinistre nécessitant une réparation à domicile, l'assistance domiciliaire vous permet de bénéficier de services de dépannage tels que : Plomberie Serrurerie Vitrerie Électricité Pour en bénéficier, appelez le + 21671 104 580"
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      },
+      {
+        "titre": "",
+        "contenu": "Prévoyance Anticipez les aléas de la vie avec confiance et apportez à vos proches une protection financière primordiale"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/automobile",
+    "titre": "Automobile",
+    "telephone": "+21671104555",
+    "date_scraping": "2026-07-09 02:57",
+    "introduction": {
+      "desc1": "Notre assurance automobile vous garantit une couverture complète pour votre responsabilité civile, votre véhicule et les dommages corporels en cas d'accident. Vous roulez ainsi en toute sérénité, sachant que vous êtes protégés contre une large gamme de risques.",
+      "desc2": "Grâce à notre service d'assistance, vous bénéficiez d'un soutien immédiat en cas de panne ou d'accident. Nous vous offrons la tranquillité d'esprit au volant, en vous assurant une prise en charge rapide et efficace pour minimiser les désagréments."
+    },
+    "garanties": [
+      {
+        "titre": "Responsabilité Civile (RC)",
+        "texte": "Garantie de base obligatoire couvrant la responsabilité civile du conducteur en cas d’accident."
+      },
+      {
+        "titre": "Défense et recours",
+        "texte": "Prise en charge des honoraires d'avocats, frais judiciaires et d'expertise pour les dommages à votre véhicule suite à un accident garanti."
+      },
+      {
+        "titre": "Tous risques",
+        "texte": "Couvre les dommages directs subis par votre véhicule, que ce soit suite à une collision avec un autre véhicule, un choc contre un objet fixe ou mobile, ou un renversement sans collision préalable."
+      },
+      {
+        "titre": "Dommages avec collision",
+        "texte": "Couvre les dommages résultant d’une collision avec un autre véhicule, indépendamment de votre responsabilité."
+      },
+      {
+        "titre": "Vol",
+        "texte": "Couvre les dommages suite à un vol ou une tentative de vol du véhicule assuré."
+      },
+      {
+        "titre": "Incendie",
+        "texte": "Couvre les dommages résultant d’un incendie, explosion, combustion spontanée ou chute de foudre."
+      },
+      {
+        "titre": "Bris de glaces",
+        "texte": "Prise en charge du bris accidentel du pare-brise, des vitres latérales et du toit ouvrant."
+      },
+      {
+        "titre": "Assistance",
+        "texte": "Garantie assistance pour les véhicules \" Affaires \" et \" Utilitaires \" de moins de 3,5T."
+      },
+      {
+        "titre": "Individuelle Conducteur",
+        "texte": "Prise en charge des dommages corporels subis par le conducteur ou toute autre personne autorisée à conduire le véhicule."
+      },
+      {
+        "titre": "CAT NAT GEMP",
+        "texte": "Couvre les dommages causés par des phénomènes naturels, émeutes, ou mouvements populaires."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Garantie modulable",
+        "contenu": "Des formules adaptées à vos besoins, allant de la couverture de base jusqu’à la garantie tous risques, avec des prix étudiés."
+      },
+      {
+        "titre": "Indemnisation rapide",
+        "contenu": "Prise en charge rapide de vos frais de réparation via notre réseau de garages conventionnés."
+      },
+      {
+        "titre": "Véhicule de remplacement",
+        "contenu": "Bénéficiez d’un véhicule de remplacement pendant jusqu’à 14 jours en cas de réparation de votre véhicule."
+      },
+      {
+        "titre": "Assistance et remorquage",
+        "contenu": "En cas de panne, un remorqueur intervient où que vous soyez pour vous prendre en charge."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Procédure à suivre en cas de sinistre",
+        "texte": "Remplissez soigneusement le constat amiable et déposez-le dans l’un de nos centres d’expertise pour une évaluation du véhicule. Après l’accord de l’expert, réparez votre véhicule et ramenez les factures au centre d’expertise. Une deuxième expertise peut être effectuée après réparation. Vous serez appelé dans les 15 jours pour récupérer votre chèque d’indemnisation."
+      },
+      {
+        "titre": "Assistance en cas de panne",
+        "texte": "Appelez le numéro 71 104 555 pour joindre notre assistance et bénéficier des services de dépannage, 7 jours sur 7."
+      },
+      {
+        "titre": "Indemnisation pour dommages corporels",
+        "texte": "Le conducteur est indemnisé uniquement si la garantie Individuelle Conducteur a été souscrite, dans la limite du capital assuré."
+      },
+      {
+        "titre": "Remboursement en cas de catastrophes naturelles (inondation, grêle, etc.)",
+        "texte": "Pour être indemnisé pour des événements exceptionnels comme l’inondation ou la grêle, vous devez souscrire les garanties CAT NAT et GEMP ."
+      },
+      {
+        "titre": "Véhicule de remplacement",
+        "texte": "Le véhicule de remplacement est fourni si la réparation prend plus de 3 jours ."
+      },
+      {
+        "titre": "Prise en charge des frais de réparation",
+        "texte": "La prise en charge des frais de réparation est automatique si vous avez souscrit la garantie PEC (Prise en charge des réparations)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Que faire en cas de sinistre ?",
+        "reponse": "Remplissez le constat amiable, déposez-le à un centre d’expertise, puis effectuez les réparations après accord de l’expert. Ramenez les factures pour la deuxième expertise et la récupération de votre chèque d’indemnisation."
+      },
+      {
+        "question": "Que faire en cas de panne ?",
+        "reponse": "Contactez notre assistance au 71 104 555 pour bénéficier des services de dépannage."
+      },
+      {
+        "question": "Serai-je indemnisé pour les dommages corporels en cas d’accident ?",
+        "reponse": "Oui, si vous avez souscrit la garantie Individuelle Conducteur, dans la limite du capital assuré."
+      },
+      {
+        "question": "Suis-je couvert pour les inondations ou la grêle ?",
+        "reponse": "Oui, si vous avez souscrit les garanties CAT NAT et GEMP, qui couvrent ces événements."
+      },
+      {
+        "question": "Quand puis-je bénéficier du véhicule de remplacement ?",
+        "reponse": "Si la réparation prend plus de 3 jours, vous pouvez bénéficier d’un véhicule de remplacement."
+      },
+      {
+        "question": "La prise en charge des frais de réparation est-elle automatique ?",
+        "reponse": "Non, elle dépend de votre souscription à la garantie PEC. Cette garantie vous assure la prise en charge des frais de réparation."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      },
+      {
+        "titre": "",
+        "contenu": "Prévoyance Anticipez les aléas de la vie avec confiance et apportez à vos proches une protection financière primordiale"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/bateau",
+    "titre": "Bateau",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:57",
+    "introduction": {
+      "desc1": "Pour votre loisir en toute sérénité, ou vous êtes, ASTREE vous sécurise et vous propose des garanties sur mesures pour assurer votre bateau à voile ou à moteur ou d’un jet ski.",
+      "desc2": "Vous êtes propriétaires d’une unité de plaisance, toutes les personnes à bord sont bien protégées, même si votre responsabilité est engagée, ASTREE vous protège"
+    },
+    "garanties": [
+      {
+        "titre": "Durée du contrat",
+        "texte": "Selon votre demande, qu’il soit d’une durée ferme ou renouvelable annuellement, notre contrat protège votre bateau contre tous les aléas de la navigation."
+      },
+      {
+        "titre": "Couverture des dommages",
+        "texte": "Dommage à la coque ou au moteur, la perte et le vol total."
+      },
+      {
+        "titre": "Responsabilité civile",
+        "texte": "De plus, lorsque votre responsabilité civile est engagée, notre contrat « PLAISANCE SECURITY » est là pour vous assurer des traversées en toute sécurité."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Réponse à vos demandes",
+        "contenu": "«PLAISANCE SECURITY» répond à toutes vos demandes, pour la protection de votre bateau ou de votre famille lors de vos escapades en mer."
+      },
+      {
+        "titre": "Sécurité garantie",
+        "contenu": "Notre contrat est toujours là et il vous assure, vraiment !"
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Dommages à la coque suite à une collision",
+        "texte": "En naviguant, votre bateau entre en collision avec un autre navire ou un obstacle flottant. La coque de votre bateau subit des dommages importants, et vous devez procéder à des réparations coûteuses. Avec le contrat \" PLAISANCE SECURITY \", les frais de réparation sont pris en charge."
+      },
+      {
+        "titre": "Panne moteur en mer",
+        "texte": "Alors que vous êtes en pleine mer, votre moteur tombe en panne et vous ne pouvez plus manœuvrer votre bateau. En cas de panne du moteur, le contrat vous couvre pour les réparations nécessaires, vous permettant de reprendre la mer en toute sécurité."
+      },
+      {
+        "titre": "Vol du matériel à bord",
+        "texte": "Lors d'une escale dans un port, des équipements tels que des moteurs hors-bord, des accessoires de navigation ou même des effets personnels sont volés. Grâce à l'extension de garantie vol partiel incluse dans votre contrat \" PLAISANCE SECURITY \", vous êtes indemnisé pour la perte de ces biens."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Est-ce que le contrat « PLAISANCE SECURITY » me couvre lors d’un vol partiel ?",
+        "reponse": "Effectivement, lorsque vous choisissez cette extension de garantie, votre moteur HB, vos accessoires de navigation ou vos meubles et effets personnels sont garantis contre le vol partiel."
+      },
+      {
+        "question": "Est-ce que les événements majeurs sont couvert par mon contrat tels que ; l’abordage, Evènement climatiques,  …..",
+        "reponse": "Oui votre contrat couvre tous les imprévues majeurs"
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      },
+      {
+        "titre": "",
+        "contenu": "Prévoyance Anticipez les aléas de la vie avec confiance et apportez à vos proches une protection financière primordiale"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/garanties-des-accidents-de-la-vie",
+    "titre": "Garanties des Accidents de la Vie",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:57",
+    "introduction": {
+      "desc1": "La garantie GAV d’ASTREE Assurances offre une couverture essentielle contre les accidents corporels dans votre vie privée et professionnelle.",
+      "desc2": "La couverture GARANTIES ACCIDENTS DE LA VIE (GAV) d’ASTREE assurances vous couvre contre les dommages corporels accidentels pouvant survenir pendant votre vie privée et pouvant s’étendre à votre vie professionnelle ainsi que les accidents de la circulation."
+    },
+    "garanties": [
+      {
+        "titre": "Décès",
+        "texte": "En cas de décès suite à un accident, cette garantie assure une indemnisation pour soutenir les proches et couvrir les frais liés aux obsèques."
+      },
+      {
+        "titre": "Incapacité Temporaire",
+        "texte": "Si vous êtes temporairement dans l’incapacité de travailler ou de mener vos activités habituelles à cause d’un accident, une compensation financière est prévue pour couvrir la perte de revenus."
+      },
+      {
+        "titre": "Invalidité Permanente",
+        "texte": "En cas de séquelles définitives entraînant une incapacité permanente partielle ou totale, cette garantie prévoit une indemnisation en fonction du degré d’invalidité."
+      },
+      {
+        "titre": "Frais d’Aménagement du Domicile et du Véhicule",
+        "texte": "Si l’accident nécessite des aménagements spécifiques à votre domicile ou véhicule pour faciliter votre quotidien, ces frais sont pris en charge."
+      },
+      {
+        "titre": "Frais Divers",
+        "texte": "Cette garantie couvre divers frais imprévus découlant directement de l’accident, comme des soins spécifiques, du matériel médical ou d’autres dépenses indispensables."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "GARANTIE SIMPLE",
+        "contenu": "Les dommages corporels par suite d’accidents survenant au cours de la vie privée de l’assuré ainsi que les membres de sa famille."
+      },
+      {
+        "titre": "GARANTIE GLOBALE (extension de garantie)",
+        "contenu": "les dommages corporels par suite d’accidents de la circulation mais aussi au cours de la vie professionnelle de l’assuré."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Déclaration de sinistre",
+        "texte": "Un formulaire détaillant les circonstances de l'accident."
+      },
+      {
+        "titre": "Rapports médicaux",
+        "texte": "Certificats, diagnostics ou comptes rendus liés aux dommages corporels."
+      },
+      {
+        "titre": "Justificatifs de frais",
+        "texte": "Factures pour soins médicaux, aménagements, ou autres dépenses couvertes."
+      },
+      {
+        "titre": "Pièces justificatives personnelles",
+        "texte": "Carte d’identité, contrat d’assurance, ou tout document complémentaire demandé."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Qui peut bénéficier de la Garantie des Accidents de la Vie ?",
+        "reponse": "Toute personne peut souscrire une GAV pour elle-même et ses proches, souvent définis comme le conjoint et les enfants à charge. Vérifiez les conditions spécifiques de votre contrat pour les critères d'éligibilité."
+      },
+      {
+        "question": "Que dois-je faire en cas d'accident couvert par la GAV ?",
+        "reponse": "Vous devez déclarer l'accident à votre assureur dans un délai de 05 jours ouvrables. Préparez les documents nécessaires, comme les rapports médicaux, factures ou témoignages, et remplissez le formulaire de déclaration fourni par votre assureur."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/assurances-individuelles-scolaire",
+    "titre": "Assurances Individuelles Scolaire",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:57",
+    "introduction": {
+      "desc1": "Cette garantie assure la sécurité des enfants scolarisés contre les accidents survenant dans toutes les sphères de leur vie quotidienne.",
+      "desc2": "Parents soucieux de l’intégrité physique de leurs enfants, cette couverture vise à garantir les enfants en âge de scolarité des dommages corporels par suite d’un accident dans toutes les circonstances de leur vie privée, scolaire, parascolaire ou estudiantine."
+    },
+    "garanties": [
+      {
+        "titre": "Décès",
+        "texte": "Une indemnisation financière est versée aux bénéficiaires désignés pour faire face aux conséquences de cette perte. Une prise en charge des frais liés aux obsèques."
+      },
+      {
+        "titre": "Incapacité",
+        "texte": "Cette garantie couvre les incapacités suite à un accident : Invalidité Permanente : Compensation calculée en fonction du taux d’invalidité, adaptée aux séquelles physiques."
+      },
+      {
+        "titre": "Frais Divers",
+        "texte": "Cette rubrique prend en charge les dépenses liées aux besoins spécifiques de l’élève : Prothèses dentaires Prothèses auditives Lit d'accompagnement"
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Couverture pour les enfants",
+        "contenu": "Cette couverture inclut les enfants jusqu’à la fin de l’obligation scolaire. Elle s'étend également aux élèves inscrits dans un cycle d’enseignement secondaire, garantissant une protection adaptée."
+      },
+      {
+        "titre": "Couverture pour les étudiants",
+        "contenu": "La garantie s’adresse aussi aux étudiants inscrits dans un cycle d’enseignement supérieur. Elle reste valable jusqu’à l’obtention de leur diplôme, assurant leur sécurité tout au long de leurs études."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Déclaration du sinistre",
+        "texte": "Informez immédiatement l’assureur de l’accident, soit en ligne, par téléphone ou en vous rendant à l’agence. Fournissez une description précise des circonstances de l’accident (date, lieu, et détail des faits)."
+      },
+      {
+        "titre": "Documents à fournir",
+        "texte": "Formulaire de déclaration dûment rempli (fourni par l’assureur). Rapports médicaux : Certificats ou comptes rendus détaillant les blessures ou traitements reçus. Factures médicales : Soins, médicaments ou matériel spécifique utilisé. Justificatifs scolaires : rapport de l’établissement scolaire si l’accident s’est produit dans ce cadre."
+      },
+      {
+        "titre": "Suivi du dossier",
+        "texte": "Un expert peut être mandaté pour évaluer les dommages ou besoins spécifiques. Des mises à jour régulières sur l’évolution de la situation devront être transmises si demandées."
+      },
+      {
+        "titre": "Paiement des indemnisations",
+        "texte": "Une fois le dossier validé, l’assureur procédera au règlement des indemnités ou à la prise en charge des frais couverts par le contrat."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quels types d’accidents sont couverts par l’assurance scolaire ?",
+        "reponse": "L’assurance couvre les accidents survenant dans le cadre scolaire (cours, récréations, activités sportives, sorties éducatives) ainsi que dans la vie privée de l’enfant, y compris les activités parascolaires et les trajets domicile-école."
+      },
+      {
+        "question": "Mon enfant est-il couvert pendant les vacances scolaires ?",
+        "reponse": "Oui, l’assurance individuelle scolaire protège votre enfant toute l’année, y compris pendant les vacances scolaires, les stages ou toute activité en dehors des périodes d’école, selon les termes du contrat."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/assurances-individuelles-accidents",
+    "titre": "Assurances Individuelles Accidents",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:57",
+    "introduction": {
+      "desc1": "Cette assurance vise à protéger l’assuré contre les dommages corporels résultant d’accidents survenant dans sa vie privée ou professionnelle.",
+      "desc2": "Par dommage corporel , on entend toute atteinte à l’intégrité physique causée de manière fortuite, soudaine, et indépendante de la volonté de l’assuré, par l’action violente d’une force extérieure."
+    },
+    "garanties": [
+      {
+        "titre": "Décès Accidentel",
+        "texte": "En cas de décès résultant d’un accident : Un capital est versé aux bénéficiaires désignés pour pallier les conséquences financières de cette perte. Les frais liés aux obsèques peuvent également être pris en charge."
+      },
+      {
+        "titre": "Incapacité Temporaire",
+        "texte": "Cette garantie couvre les absences prolongées dues à un accident, avec une indemnisation calculée selon la durée et la gravité des soins nécessaires."
+      },
+      {
+        "titre": "Invalidite permanente",
+        "texte": "En cas de séquelles définitives entraînant une incapacité permanente partielle ou totale, cette garantie prévoit une indemnisation en fonction du degré d’invalidité."
+      },
+      {
+        "titre": "Frais medicaux",
+        "texte": "Prise en charge des frais médicaux : Consultations, soins spécialisés, et achat de matériel adapté."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Les chefs de famille",
+        "contenu": "Ils cherchent à assurer la sécurité financière de leur entourage en cas de décès ou d’incapacité grave. Cette garantie permet de subvenir aux besoins essentiels des proches, apportant sérénité et protection."
+      },
+      {
+        "titre": "Les célibataires",
+        "contenu": "Ils souhaitent offrir un soutien financier à un proche ou exprimer leur gratitude envers une personne chère. Cette démarche reflète leur volonté de contribuer à la sécurité d’autrui en toute circonstance."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Déclaration du sinistre",
+        "texte": "Informez immédiatement l’assureur via les moyens disponibles (en ligne, par téléphone, ou en agence). Fournissez une description détaillée de l’accident (date, lieu, et circonstances)."
+      },
+      {
+        "titre": "Documents à fournir",
+        "texte": "Formulaire de déclaration dûment rempli. Certificats médicaux ou rapports détaillant les blessures. Factures des frais médicaux : Consultations, soins spécialisés, et achat de matériel adapté."
+      },
+      {
+        "titre": "Suivi du dossier",
+        "texte": "Un expert peut être mandaté pour évaluer les besoins spécifiques ou l’ampleur des dommages. Des mises à jour sur l’évolution de la situation seront exigées si nécessaire."
+      },
+      {
+        "titre": "Paiement des indemnisations",
+        "texte": "Une fois le dossier validé, l’assureur procédera au règlement des indemnités ou à la prise en charge des frais couverts."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quels sont les bénéficiaires du capital garanti ?",
+        "reponse": "Les bénéficiaires du capital garanti peuvent être désignés spécifiquement dans le contrat, tels que le conjoint, les descendants ou les héritiers. À défaut de désignation, ce sont les héritiers légaux qui reçoivent le capital, en fonction de leur part héréditaire."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/prevoyance",
+    "titre": "Prévoyance",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:58",
+    "introduction": {
+      "desc1": "L'assurance temporaire décès à capital constant garantit le versement d'un capital prédéfini à vos bénéficiaires en cas de décès pendant la durée du contrat. Ce produit sécurise l'avenir financier de vos proches en leur offrant une protection pendant une période déterminée.",
+      "desc2": "Idéale pour ceux qui souhaitent protéger leur famille, elle assure un capital fixe dès la souscription, indépendamment des fluctuations économiques. Elle est particulièrement adaptée pour couvrir des périodes clés, comme la durée d'un prêt immobilier ou la scolarité des enfants."
+    },
+    "garanties": [
+      {
+        "titre": "Remplir le formulaire de souscription",
+        "texte": "Fournissez vos informations personnelles et celles des bénéficiaires pour établir le contrat."
+      },
+      {
+        "titre": "Choisir les paramètres du contrat",
+        "texte": "Définissez la durée de la couverture et le montant du capital garanti en fonction de vos besoins."
+      },
+      {
+        "titre": "Soumettre les documents requis",
+        "texte": "Joignez les pièces nécessaires, comme une pièce d’identité et, si demandé, un rapport médical."
+      },
+      {
+        "titre": "Finaliser la souscription",
+        "texte": "Après validation de votre demande et paiement de la prime, votre contrat est activé."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Protection financière",
+        "contenu": "En cas de décès, vos proches reçoivent un capital constant pour couvrir leurs besoins financiers, tels que le remboursement de dettes ou les frais de la vie quotidienne."
+      },
+      {
+        "titre": "Tarification abordable",
+        "contenu": "Les primes d'une assurance temporaire décès à capital constant sont souvent inférieures à celles d'autres types de produits d'assurance vie, rendant cette couverture accessible."
+      },
+      {
+        "titre": "Flexibilité de la durée",
+        "contenu": "Vous pouvez choisir la durée de votre en fonction de vos besoins spécifiques et des circonstances de votre vie."
+      },
+      {
+        "titre": "Tranquillité d'esprit",
+        "contenu": "Ce produit vous permet de partir en paix, sachant que vos proches seront protégés financièrement, même si vous n'êtes plus là."
+      },
+      {
+        "titre": "Protection financière",
+        "contenu": "En cas de décès de l’assuré, vos proches reçoivent un capital constant leur permettant de maintenir une stabilité financière. Ce capital peut être utilisé pour :Couvrir le remboursement des dettes, comme un prêt immobilier ou personnel.Assurer les frais de la vie quotidienne (logement, éducation des enfants, alimentation).Réaliser des projets essentiels ou faire face à des imprévus."
+      },
+      {
+        "titre": "Tarification abordable",
+        "contenu": "L’assurance temporaire décès à capital constant est conçue pour offrir une couverture essentielle à un coût accessible. Les primes permettent :D’adapter le montant à vos moyens sans sacrifier la qualité de la protection.De protéger efficacement votre famille même avec un budget limité."
+      },
+      {
+        "titre": "Flexibilité de la durée",
+        "contenu": "Ce produit s’adapte à vos besoins grâce à une durée de couverture modulable, que vous pouvez choisir en fonction de vos projets et priorités :Protection pendant la durée d’un prêt immobilier ou d’une période professionnelle clé.Couverture jusqu’à ce que vos enfants deviennent financièrement indépendants."
+      },
+      {
+        "titre": "Tranquillité d’esprit",
+        "contenu": "Souscrire à une assurance temporaire décès, c’est garantir que vos proches seront pris en charge financièrement même en votre absence. Vous pouvez vivre sereinement, sachant que :Votre famille pourra faire face aux défis financiers sans inquiétude.Vous leur épargnez des difficultés supplémentaires en cas d’événements imprévus."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Remplir le formulaire de souscription",
+        "texte": "Fournissez vos informations personnelles et celles des bénéficiaires pour établir le contrat."
+      },
+      {
+        "titre": "Choisir les paramètres du contrat",
+        "texte": "Définissez la durée de la couverture et le montant du capital garanti en fonction de vos besoins."
+      },
+      {
+        "titre": "Soumettre les documents requis",
+        "texte": "Joignez les pièces nécessaires, comme une pièce d’identité et, si demandé, un rapport médical."
+      },
+      {
+        "titre": "Finaliser la souscription",
+        "texte": "Après validation de votre demande et paiement de la prime, votre contrat est activé."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quel est le montant du capital garanti et comment le choisir ?",
+        "reponse": "Le montant du capital garanti est déterminé lors de la souscription et peut être ajusté selon vos besoins financiers et ceux de vos bénéficiaires. Il est important de choisir un montant suffisant pour couvrir les obligations financières, telles que les prêts en cours ou les frais de la vie quotidienne."
+      },
+      {
+        "question": "Que se passe-t-il si je ne renouvelle pas mon contrat avant l'échéance ?",
+        "reponse": "Si vous ne renouvelez pas votre contrat avant l'échéance, la couverture prend fin et vous ne serez plus assuré. Il est donc conseillé de vérifier les dates d’échéance et de discuter des options de renouvellement avec votre assureur avant la date limite."
+      },
+      {
+        "question": "Les prestations sont-elles imposables pour les bénéficiaires ?",
+        "reponse": "Les prestations versées aux bénéficiaires dans le cadre d'une assurance temporaire décès ne sont pas soumises aux droits de succession."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/garantie-pret",
+    "titre": "Garantie prêt",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:58",
+    "introduction": {
+      "desc1": "L’assurance emprunteur est une solution essentielle pour protéger vos proches et votre patrimoine en cas d’imprévus majeurs.",
+      "desc2": "Elle garantit la prise en charge du remboursement de votre crédit en cas de décès ou d'invalidité absolue et définitive, vous offrant ainsi une tranquillité d’esprit pour mener vos projets en toute sécurité."
+    },
+    "garanties": [
+      {
+        "titre": "Évaluation des risques",
+        "texte": "Analyse de vos informations personnelles (âge, santé, profession) pour une couverture optimale."
+      },
+      {
+        "titre": "Flexibilité des garanties",
+        "texte": "Ajustement des options selon votre situation et vos objectifs financiers."
+      },
+      {
+        "titre": "Transparence",
+        "texte": "Accompagnement personnalisé à chaque étape pour choisir les garanties adaptées, sans complexité."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Tranquillité d'esprit",
+        "contenu": "Couverture des obligations financières en cas de décès ou d'invalidité."
+      },
+      {
+        "titre": "Personnalisation",
+        "contenu": "Garanties flexibles adaptées à vos besoins spécifiques."
+      },
+      {
+        "titre": "Facilité d’accès au crédit",
+        "contenu": "Augmente vos chances d’obtenir des conditions favorables auprès des prêteurs."
+      },
+      {
+        "titre": "Protection des proches",
+        "contenu": "Garantie de sécurité financière pour votre famille face aux aléas."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "En cas de décès",
+        "texte": "Remboursement intégral du capital restant dû par notre compagnie. Déclaration effectuée par le bénéficiaire ou l’organisme prêteur avec présentation des documents nécessaires (acte de décès, contrat de prêt, etc.)."
+      },
+      {
+        "titre": "En cas d’invalidité absolue et définitive (IAD)",
+        "texte": "Prise en charge du solde du prêt après confirmation par un médecin de l’invalidité totale et permanente. Le dossier médical doit inclure un rapport détaillant l’invalidité consolidée ainsi que les documents relatifs au prêt."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment est calculée la prime d'assurance ?",
+        "reponse": "Elle est déterminée en fonction de critères comme le montant du prêt, la durée, votre âge, et votre état de santé."
+      },
+      {
+        "question": "Puis-je modifier ma couverture en cours de contrat ?",
+        "reponse": "Oui, il est possible d’ajuster vos garanties en contactant notre service client."
+      },
+      {
+        "question": "Quand la couverture est-elle effective ?",
+        "reponse": "Elle démarre dès la signature du contrat et le paiement de la première prime."
+      },
+      {
+        "question": "Que se passe-t-il en cas de remboursement anticipé du prêt ?",
+        "reponse": "Une ristourne sur la prime non consommée peut être accordée. Contactez notre service client pour en connaître les modalités."
+      },
+      {
+        "question": "Pourquoi choisir Protect Prévoyance Plus ?",
+        "reponse": "En optant pour notre solution d’assurance emprunteur, vous bénéficiez : D’une expertise reconnue pour une gestion optimale de vos besoins. De garanties solides adaptées à votre profil financier et personnel. De la sécurité pour vos proches avec une prise en charge complète en cas d’imprévu. Avec Protect Prévoyance Plus , avancez sereinement dans vos projets, l'esprit tranquille."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/epargne",
+    "titre": "Epargne",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:58",
+    "introduction": {
+      "desc1": "Qu’il s’agisse de financer vos projets à court ou long terme, de préparer votre retraite ou de transmettre un patrimoine, Épargne Plus est la solution idéale.",
+      "desc2": "Ce contrat d’assurance vie en capitalisation allie flexibilité et performance, vous offrant un produit d’épargne personnalisé et adapté à vos besoins. Bénéficiez d’une gestion optimale de votre capital avec une combinaison unique de performance, sécurité et avantages fiscaux . Avec Épargne Plus , accédez à un produit conçu pour évoluer avec vos projets tout en assurant votre tranquillité financière."
+    },
+    "garanties": [
+      {
+        "titre": "Ouvert à tous dès 18 ans",
+        "texte": "Accessible à toute personne physique majeure, sans conditions restrictives."
+      },
+      {
+        "titre": "Flexibilité des versements",
+        "texte": "Liberté totale pour ajuster vos contributions en fonction de vos capacités financières et de vos objectifs. Aucun montant initial requis ni exigence pour les versements complémentaires."
+      },
+      {
+        "titre": "Avantages fiscaux",
+        "texte": "En souscrivant à un plan d’épargne avec une durée minimale de 8 ans, vous profiterez des conditions fiscales avantageuses et idéales pour optimiser vos rendements sur le long terme."
+      },
+      {
+        "titre": "Sécurité et performance",
+        "texte": "Une gestion rigoureuse de votre capital vous assure des rendements compétitifs avec une protection contre les fluctuations du marché."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Accessibilité",
+        "contenu": "Produit ouvert à tous dès 18 ans, sans barrière d’entrée."
+      },
+      {
+        "titre": "Flexibilité",
+        "contenu": "Liberté totale dans le montant et la fréquence des versements."
+      },
+      {
+        "titre": "Sécurisation de votre capital",
+        "contenu": "Une épargne protégée et sécurisée, adaptée à vos projets futurs."
+      },
+      {
+        "titre": "Avantages fiscaux",
+        "contenu": "Fiscalité avantageuse sur les revenus après 8 ans, pour maximiser vos gains."
+      },
+      {
+        "titre": "Sécurisation de l’avenir",
+        "contenu": "Constituez un capital pour vos projets ou assurez une protection financière à vos proches."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "En cas de vie au terme du contrat",
+        "texte": "Vous pouvez choisir entre :"
+      },
+      {
+        "titre": "En cas de vie avant le terme du contrat",
+        "texte": "Vous avez la possibilité de demander un rachat partiel ou total, en respectant les conditions fiscales et réglementaires en vigueur."
+      },
+      {
+        "titre": "En cas de décès",
+        "texte": "Le capital constitué sera automatiquement versé aux bénéficiaires désignés dans votre contrat, garantissant leur protection financière."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Qu'est-ce qu'un contrat d'épargne par capitalisation ?",
+        "reponse": "C’est un contrat qui vous permet de constituer un capital sur le long terme, tout en profitant d’avantages fiscaux et d’une gestion sécurisée."
+      },
+      {
+        "question": "Quels sont les principaux avantages d'Épargne Plus ?",
+        "reponse": "Liberté totale des versements. Fiscalité avantageuse après 8 ans. Possibilité de rachat partiel ou total pour des besoins urgents. Protection des bénéficiaires en cas de décès."
+      },
+      {
+        "question": "Puis-je effectuer des retraits avant 8 ans ?",
+        "reponse": "Oui, des retraits partiels ou totaux sont possibles. Cependant, cela peut avoir un impact sur les avantages fiscaux, qu’il convient de prendre en compte."
+      },
+      {
+        "question": "Comment sont gérés les versements ?",
+        "reponse": "Vous déterminez le montant et la fréquence des versements selon votre situation, sans aucune exigence de minimum."
+      },
+      {
+        "question": "Que se passe-t-il si je décède avant la fin du contrat ?",
+        "reponse": "En cas de décès, le capital accumulé sera versé directement aux bénéficiaires désignés, sans droits de succession."
+      },
+      {
+        "question": "Est-il possible de modifier les bénéficiaires du contrat ?",
+        "reponse": "Oui, vous pouvez changer les bénéficiaires à tout moment en contactant votre assureur."
+      },
+      {
+        "question": "Pourquoi choisir notre compagnie pour votre contrat d'épargne ?",
+        "reponse": "Expertise reconnue dans le domaine des assurances et de la gestion de capital. Solidité financière en tant que membre du Groupe Banque de Tunisie, garantissant des placements fiables. Accompagnement personnalisé pour répondre à vos besoins tout au long de votre épargne."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/prevoyance-epargne-retraite",
+    "titre": "Prévoyance & Epargne Retraite",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:58",
+    "introduction": {
+      "desc1": "Avec Performance Retraite Plus, vous bénéficiez d’un plan d’épargne souple puisque c’est vous qui choisissez la durée, le montant, et la périodicité des versements qui seront fructifiés dans les meilleures conditions de sécurité et de rentabilité.",
+      "desc2": "Une solution idéale pour assurer un revenu complémentaire à votre retraite et maintenir votre niveau de vie."
+    },
+    "garanties": [
+      {
+        "titre": "Double Protection : Épargne et Garantie Décès",
+        "texte": "Ce contrat vous permet de constituer un capital tout en garantissant une protection en cas de décès. Ainsi, vous préparez votre avenir tout en sécurisant celui de vos proches."
+      },
+      {
+        "titre": "Fiscalité Avantageuse",
+        "texte": "Bénéficiez de réductions fiscales sur vos versements et sur les plus-values générées par votre épargne, selon la législation en vigueur, ce qui optimise votre investissement."
+      },
+      {
+        "titre": "Capital Garantie et Croissance Sécurisée",
+        "texte": "Votre épargne est placée de manière à garantir un capital à la fin du contrat. Les fonds sont investis pour assurer une croissance sécurisée tout au long de la durée du contrat."
+      },
+      {
+        "titre": "Flexibilité des Versements",
+        "texte": "Choisissez la fréquence de vos versements (mensuels, trimestriels, annuels) selon vos capacités et vos objectifs."
+      },
+      {
+        "titre": "Transfert et Succession Simplifiés",
+        "texte": "En cas de décès, les fonds peuvent être transmis à vos bénéficiaires, selon les modalités prévues dans votre contrat, avec une gestion facilitée et hors droits de succession"
+      },
+      {
+        "titre": "Couverture Optimale selon vos Besoins",
+        "texte": "Grâce à un formulaire de déclaration de risque, nous évaluons vos besoins spécifiques pour une couverture sur mesure, adaptée à votre situation personnelle."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Pour l’entreprise",
+        "contenu": "Les primes payées par l'employeur dans le cadre de l’assurance collective sont entièrement déductibles de l’impôt sur les sociétés.Ces primes ne supportent pas la taxe unique sur les assurances."
+      },
+      {
+        "titre": "Pour le salarié",
+        "contenu": "La part des versements à la charge des salariés est déductible de l'impôt sur le revenu, jusqu'à un maximum de 100 000 DT par an.Le capital ou la rente versée au terme de l'adhésion sera également exonéré d’impôt sur le revenu.En cas de décès de l'adhérent, l’épargne constituée sera versée aux bénéficiaires désignés et ne sera soumise à aucun droit de succession."
+      },
+      {
+        "titre": "Flexibilité des versements",
+        "contenu": "Le montant et la fréquence des versements sont libres, permettant à l'employeur et aux salariés de s’adapter à leurs capacités financières."
+      },
+      {
+        "titre": "Revenu supplémentaire",
+        "contenu": "À la retraite, le capital accumulé peut être récupéré sous forme de rente ou de capital, contribuant à compléter les pensions de base et à améliorer le niveau de vie du salarié."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "En cas de vie de l'adhérent",
+        "texte": "Le capital constitué est versé à l'adhérent à l'âge de la retraite sous forme de capital, de rente, ou d’une combinaison capital/rente."
+      },
+      {
+        "titre": "En cas de décès",
+        "texte": "Si l'adhérent décède avant la retraite, l’épargne accumulée est versée aux bénéficiaires désignés dans le bulletin d'adhésion, sans fiscalité supplémentaire."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Qu'est-ce qu'un contrat d'assurance par capitalisation de retraite complémentaire ?",
+        "reponse": "Il s'agit d'un contrat d'assurance qui permet à une entreprise de constituer un capital destiné à verser des rentes ou un capital à ses salariés lors de leur départ à la retraite."
+      },
+      {
+        "question": "Quels sont les avantages d'un contrat de capitalisation pour la retraite ?",
+        "reponse": "Les avantages incluent la constitution d’un capital, des bénéfices fiscaux pour l’entreprise et les salariés, ainsi que la possibilité de sécuriser un revenu complémentaire pour les salariés à la retraite."
+      },
+      {
+        "question": "Qui peut souscrire à ce type de contrat ?",
+        "reponse": "Ce contrat peut être souscrit par toute entreprise souhaitant offrir à ses employés une solution de retraite complémentaire."
+      },
+      {
+        "question": "Comment sont financées les primes ?",
+        "reponse": "Les primes sont financées par une combinaison de l'employeur et des salariés, généralement prélevées sur le salaire."
+      },
+      {
+        "question": "Quel est le montant des primes ?",
+        "reponse": "Le montant des primes est déterminé par l'entreprise en fonction de ses capacités financières et des objectifs de retraite souhaités pour ses employés."
+      },
+      {
+        "question": "Que se passe-t-il en cas de départ d’un salarié ?",
+        "reponse": "En cas de départ, le salarié peut transférer son capital accumulé vers un autre produit de retraite ou en demander le versement sous forme de capital ou de rente, selon les termes du contrat."
+      },
+      {
+        "question": "En cas de décès, l’épargne reste-t-elle bloquée ?",
+        "reponse": "Non, en cas de décès avant 8 ans, l’épargne constituée est versée directement aux bénéficiaires sans régularisation fiscale."
+      },
+      {
+        "question": "Est-il possible de modifier le contrat une fois souscrit ?",
+        "reponse": "Oui, des modifications peuvent être apportées au contrat en fonction des besoins de l’entreprise, sous réserve de l’accord avec l’assureur."
+      },
+      {
+        "question": "Comment sont placées les provisions relatives à l’épargne gérée par Astrée ?",
+        "reponse": "L’épargne constituée est placée principalement dans des bons de trésor, des emprunts obligataires, et des dépôts à terme auprès des banques, conformément au catalogue de placement règlementaire."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/avenir-de-mes-enfants",
+    "titre": "Avenir de mes enfants",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:59",
+    "introduction": {
+      "desc1": "L'éducation est l’un des plus beaux héritages que vous pouvez offrir à vos enfants.",
+      "desc2": "Avec le produit Rente Éducation Complète, vous sécurisez leur avenir en leur assurant les ressources nécessaires pour poursuivre leurs études, même en cas d’imprévu. Ce produit offre une double solution alliant protection et épargne : en cas de décès ou d’invalidité permanente, vos enfants bénéficient d’une rente ou d’un capital dédié à leurs frais éducatifs, tout en vous permettant de constituer progressivement un fonds pour anticiper et financer leurs études supérieures."
+    },
+    "garanties": [
+      {
+        "titre": "Formulaire de demande",
+        "texte": "Fournissez vos informations personnelles et celles des bénéficiaires. Ce formulaire permet d'adapter le contrat à vos besoins."
+      },
+      {
+        "titre": "Choix du montant de la rente",
+        "texte": "Déterminez un montant annuel qui couvre les frais éducatifs des enfants jusqu'à un âge défini (généralement 25 ans)."
+      },
+      {
+        "titre": "Durée de la garantie",
+        "texte": "Fixez la durée pendant laquelle la rente sera versée, selon vos objectifs."
+      },
+      {
+        "titre": "Modalités de versement des primes",
+        "texte": "Optez pour des paiements mensuels, trimestriels ou annuels, en fonction de vos préférences."
+      },
+      {
+        "titre": "Questionnaire de santé",
+        "texte": "Un bilan de santé peut être requis pour évaluer les risques et ajuster les garanties."
+      },
+      {
+        "titre": "Accompagnement personnalisé",
+        "texte": "Nos conseillers sont disponibles pour répondre à vos questions et vous guider tout au long du processus de souscription."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Sécurisation de l'avenir éducatif",
+        "contenu": "Garantit les études des enfants en cas d’imprévus, même en l'absence de l'assuré."
+      },
+      {
+        "titre": "Protection financière",
+        "contenu": "Offre une rente ou un capital pour couvrir les frais de scolarité sans interruption."
+      },
+      {
+        "titre": "Flexibilité",
+        "contenu": "Personnalisez la rente, la durée de couverture et les modalités de versement pour répondre aux besoins spécifiques de votre famille."
+      },
+      {
+        "titre": "Tranquillité d'esprit",
+        "contenu": "Assurez-vous que l’avenir académique de vos enfants est sécurisé, quelles que soient les circonstances."
+      },
+      {
+        "titre": "Avantages fiscaux",
+        "contenu": "Dans certaines juridictions, les primes peuvent bénéficier de réductions fiscales, réduisant ainsi le coût global du contrat."
+      }
+    ],
+    "sinistre": [
+      {
+        "titre": "Versement en cas de décès de l'assuré",
+        "texte": "Une rente éducation est immédiatement versée aux bénéficiaires désignés pour couvrir les frais éducatifs. Étapes clés Notification : Informez l'assureur dès que possible. Documents nécessaires : Acte de décès, pièces d'identité des bénéficiaires, contrat d’assurance, et autres justificatifs (selon le cas). Évaluation et validation : L’assureur examine les documents et valide le sinistre. Versement : Les rentes sont versées selon les modalités prévues au contrat. Notification : Informez l'assureur dès que possible. Documents nécessaires : Acte de décès, pièces d'identité des bénéficiaires, contrat d’assurance, et autres justificatifs (selon le cas). Évaluation et validation : L’assureur examine les documents et valide le sinistre. Versement : Les rentes sont versées selon les modalités prévues au contrat."
+      },
+      {
+        "titre": "",
+        "texte": "Notification : Informez l'assureur dès que possible. Documents nécessaires : Acte de décès, pièces d'identité des bénéficiaires, contrat d’assurance, et autres justificatifs (selon le cas). Évaluation et validation : L’assureur examine les documents et valide le sinistre. Versement : Les rentes sont versées selon les modalités prévues au contrat."
+      },
+      {
+        "titre": "Rente à la fin du contrat",
+        "texte": "Si l’assuré est toujours en vie à l’échéance, une rente est versée, pouvant être utilisée pour financer les études ou d'autres projets éducatifs. Étapes clés Notification : Informez l’assureur de l’échéance à venir. DDocuments requis : Fournissez les justificatifs prévus dans le contrat. Vérification : L’assureur confirme les termes du contrat avant d’entamer les paiements. Versement : Les fonds sont débloqués selon la fréquence choisie (annuelle, trimestrielle, etc.). Notification : Informez l’assureur de l’échéance à venir. DDocuments requis : Fournissez les justificatifs prévus dans le contrat. Vérification : L’assureur confirme les termes du contrat avant d’entamer les paiements. Versement : Les fonds sont débloqués selon la fréquence choisie (annuelle, trimestrielle, etc.)."
+      },
+      {
+        "titre": "",
+        "texte": "Notification : Informez l’assureur de l’échéance à venir. DDocuments requis : Fournissez les justificatifs prévus dans le contrat. Vérification : L’assureur confirme les termes du contrat avant d’entamer les paiements. Versement : Les fonds sont débloqués selon la fréquence choisie (annuelle, trimestrielle, etc.)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quelles garanties en cas de décès avant l’échéance ?",
+        "reponse": "Le contrat garantit le versement immédiat d’une rente éducation aux bénéficiaires, leur permettant de poursuivre leurs études en toute sérénité."
+      },
+      {
+        "question": "Que faire en cas de difficulté pour payer les primes ?",
+        "reponse": "Contactez votre assureur. Des ajustements tels que la réduction des primes ou une suspension temporaire peuvent être proposés pour éviter la résiliation du contrat."
+      },
+      {
+        "question": "Puis-je modifier le contrat en cours de route ?",
+        "reponse": "Oui, il est possible de modifier le montant de la rente ou la durée de la garantie en fonction de l’évolution de vos besoins."
+      },
+      {
+        "question": "Quels sont les avantages fiscaux ?",
+        "reponse": "Selon la législation en vigueur, les primes peuvent bénéficier de déductions fiscales, réduisant le coût total de l’assurance."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériel informatique Avec notre assurance Matériel Electronique , sécurisez vos équipements technologiques et travaillez l’esprit serein"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/particulier/materiel-informatique",
+    "titre": "Matériel informatique",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:59",
+    "introduction": {
+      "desc1": "Avec notre assurance Matériel Électronique, sécurisez vos équipements technologiques et travaillez l’esprit serein.",
+      "desc2": "Assurez vos investissements technologiques en toute tranquillité et bénéficiez d’une prise en charge rapide en cas de sinistre. Grâce à cette assurance, vous minimisez les risques liés à vos équipements et garantissez la continuité de vos opérations professionnelles."
+    },
+    "garanties": [
+      {
+        "titre": "Dommages accidentels",
+        "texte": "Cette garantie protège vos équipements électroniques contre les risques de chocs, chutes ou tout autre dommage accidentel. En cas d’incident imprévu, cette couverture permet de réparer ou de remplacer rapidement vos matériels."
+      },
+      {
+        "titre": "Pannes électriques",
+        "texte": "Vous êtes couvert contre les pannes électriques causées par des surtensions ou des courts-circuits affectant vos équipements. Cela inclut la réparation ou le remplacement des appareils endommagés par une défaillance électrique imprévue."
+      },
+      {
+        "titre": "Vol et cambriolage",
+        "texte": "En cas de vol, cette couverture indemnise la valeur de remplacement des équipements volés. Vous êtes protégé contre la perte de vos matériels électroniques essentiels à votre activité."
+      },
+      {
+        "titre": "Dégâts des eaux",
+        "texte": "Si vos équipements sont endommagés par des infiltrations d'eau ou des inondations, cette garantie prend en charge les frais de réparation ou de remplacement des matériels électroniques touchés."
+      }
+    ],
+    "avantages": [
+      {
+        "titre": "Couverture contre une variété de risques",
+        "contenu": "Nous offrons une protection complète contre des risques variés : dommages accidentels, pannes électriques, vol et dégâts des eaux. Votre équipement est couvert pour garantir la continuité de votre activité."
+      },
+      {
+        "titre": "Indemnisation rapide et efficace",
+        "contenu": "En cas de sinistre, vous bénéficiez d’une prise en charge rapide pour vous permettre de reprendre vos activités sans délai. Nous nous engageons à traiter vos demandes d’indemnisation avec efficacité et transparence."
+      },
+      {
+        "titre": "Flexibilité et personnalisation du contrat",
+        "contenu": "Le contrat est adaptable à vos besoins spécifiques. Qu’il s’agisse d’une petite entreprise ou d’une grande société, vous pouvez choisir les garanties qui correspondent à la valeur de vos équipements et à la nature de votre activité."
+      },
+      {
+        "titre": "Protection contre les imprévus",
+        "contenu": "Protégez-vous contre les pannes imprévues, accidents ou vol. Cette assurance vous permet d’éviter les interruptions de service et les pertes financières significatives liées aux risques technologiques majeurs."
+      }
+    ],
+    "sinistre": [],
+    "faqs": [
+      {
+        "question": "Quels types de matériels électroniques sont couverts par cette assurance ?",
+        "reponse": "Tous les équipements électroniques professionnels, tels que les ordinateurs, serveurs, systèmes de communication, appareils de point de vente et autres matériels utilisés dans votre activité, sont couverts, sous réserve des conditions définies dans le contrat."
+      },
+      {
+        "question": "Quelles sont les exclusions de couverture ?",
+        "reponse": "L’assurance ne couvre pas les dommages causés par un défaut d’entretien ou une utilisation incorrecte des équipements. Il est essentiel de maintenir vos matériels en bon état de fonctionnement pour garantir une couverture optimale."
+      },
+      {
+        "question": "Que faire si mon matériel électronique est endommagé ?",
+        "reponse": "En cas de dommage, contactez immédiatement votre assureur pour déclarer le sinistre. Un expert sera désigné pour évaluer les dégâts et déterminer la prise en charge."
+      },
+      {
+        "question": "Est-ce que le vol de mes matériels électroniques est couvert ?",
+        "reponse": "Oui, le vol est couvert par cette assurance. En cas de perte de matériel électronique, vous serez indemnisé pour la valeur de remplacement de vos équipements volés."
+      },
+      {
+        "question": "Puis-je personnaliser ma couverture en fonction de mes besoins ?",
+        "reponse": "Oui, le contrat est flexible et peut être ajusté selon la valeur de vos équipements et la nature de vos activités. Vous avez la possibilité de choisir les garanties les mieux adaptées à vos besoins spécifiques."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Bateau Votre bateau mérite la meilleure protection : découvrez nos solutions d’assurances pour les corps de plaisance"
+      },
+      {
+        "titre": "",
+        "contenu": "Automobile Votre sécurité sur la route commence ici : assurez votre automobile et partez l’esprit tranquille"
+      },
+      {
+        "titre": "",
+        "contenu": "Habitation Protégez votre chez-vous : optez pour une Multirisque Habitation flexible et adaptée à tous les besoins"
+      },
+      {
+        "titre": "",
+        "contenu": "Prévoyance Anticipez les aléas de la vie avec confiance et apportez à vos proches une protection financière primordiale"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/simulateur",
+    "titre": "Simulateur",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:59",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+    "titre": "Protections Complètes pour Tous Vos Biens",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:59",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Perte d'exploitation après incendie Une assurance essentielle pour compenser vos pertes financières après un incendie et garantir la continuité de votre activité."
+      },
+      {
+        "titre": "",
+        "contenu": "Responsabilité Civile Notre assurance protège la Responsabilité Civile des entreprises et des indépendants avec des garanties adaptées à leurs besoins et activités."
+      },
+      {
+        "titre": "",
+        "contenu": "Assurance-crédit Ne subissez plus les retards de paiement et les impayés pour votre entreprise, optez pour une couverture complète du poste clients"
+      },
+      {
+        "titre": "",
+        "contenu": "Matériels Électroniques et Informatiques Avec notre assurance Matériel Électronique, sécurisez vos équipements technologiques et travaillez l’esprit serein."
+      },
+      {
+        "titre": "",
+        "contenu": "Pertes de Produits en Entrepôts Frigorifiques Votre entrepôt frigorifique est à l’arrêt ? pas de panique ! restez opérationnel avec notre assurance perte d’exploitation"
+      },
+      {
+        "titre": "",
+        "contenu": "Perte d’Exploitation après Bris de Machines Une machine à l'arrêt, c'est un manque à gagner. Avec notre assurance perte d’exploitation assurez la pérennité de votre activité."
+      },
+      {
+        "titre": "",
+        "contenu": "Bris de Machines Sécurisez vos investissements et protégez votre production : assurez vos machines pour une tranquillité d’esprit totale."
+      },
+      {
+        "titre": "",
+        "contenu": "Fidélisation du personnel Offrez à vos équipes une solution d’épargne avantageuse qui renforce leur sécurité financière tout en motivant leur engagement"
+      },
+      {
+        "titre": "",
+        "contenu": "Voyage Voyagez l’esprit léger. Avec notre Assurance Voyage, où vous irez nous serons toujours là pour vous protéger."
+      },
+      {
+        "titre": "",
+        "contenu": "Multirisque Professionnelle Avec notre Multirisque Professionnelle, bénéficiez d’une protection 360° pour exercer en toute sérénité"
+      },
+      {
+        "titre": "",
+        "contenu": "Véhicules Professionnels et Parc Automobile Roulez l’esprit tranquille, ASTREE protège votre entreprise sur la route et prend le volant de sécurité de votre parc automobile."
+      },
+      {
+        "titre": "",
+        "contenu": "Assurance Groupe Maladie La santé de votre entreprise passe par celle de vos employés. Pour un personnel en forme, optez pour notre assurance maladie groupe."
+      },
+      {
+        "titre": "",
+        "contenu": "Transport de Marchandises Que ce soit par voie terrestre, maritime ou aérienne, protégez vos marchandises pour une logistique sans soucis"
+      },
+      {
+        "titre": "",
+        "contenu": "Indemnité Départ à la Retraite Les départs à la retraite peuvent s’accompagner d’une compensation financière significative. Avec ASTREE, optimisez le paiement de ces indemnités."
+      },
+      {
+        "titre": "",
+        "contenu": "Une Relation de Confiance Durable Choisir ASTREE, c'est établir une relation basée sur la proximité, la transparence et l’engagement pour toujours mieux vous accompagner. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Innovation au Cœur de Nos Services Choisir ASTREE, c'est profiter d’outils modernes et performants pour simplifier vos démarches et vous assurer une expérience fluide et efficace. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Expertise Qui Fait la Différence Choisir ASTREE, c'est bénéficier d’un savoir-faire éprouvé pour vous offrir des solutions fiables et adaptées à vos besoins spécifiques. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Maximisez vos avantages fiscaux, préparez demain 02 Préparez vos vacances : pensez à l'assurance voyage Que vous partiez en vacances ou pour affaires, ne sous-estimez pas l’importance de l'assurance voyage. Elle couvre les imprévus tels que les annulations de vol, retards, perte de bagages ou encore les frais médicaux à l'étranger. En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "Maximisez vos avantages fiscaux, préparez demain Préparez vos vacances : pensez à l'assurance voyage Que vous partiez en vacances ou pour affaires, ne sous-estimez pas l’importance de l'assurance voyage. Elle couvre les imprévus tels que les annulations de vol, retards, perte de bagages ou encore les frais médicaux à l'étranger. En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "Préparez vos vacances : pensez à l'assurance voyage Préparez vos vacances : pensez à l'assurance voyage Que vous partiez en vacances ou pour affaires, ne sous-estimez pas l’importance de l'assurance voyage. Elle couvre les imprévus tels que les annulations de vol, retards, perte de bagages ou encore les frais médicaux à l'étranger. En savoir plus"
+      },
+      {
+        "titre": "Certification MSI 20000 ®️",
+        "contenu": "25  juin,  2026 Certification MSI 20000 ®️"
+      },
+      {
+        "titre": "SALON AUTO-EXPO SOUSSE",
+        "contenu": "12  novembre,  2025 SALON AUTO-EXPO SOUSSE"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - Madame Oumayma BETBOUT",
+        "contenu": "24  octobre,  2025 Témoignage de notre Agent Général - Madame Oumayma BETBOUT"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - M. Chokri ABID",
+        "contenu": "26  septembre,  2025 Témoignage de notre Agent Général - M. Chokri ABID"
+      },
+      {
+        "titre": "Assemblée Général Ordinaire - juin 2025",
+        "contenu": "23  juin,  2025 Assemblée Général Ordinaire - juin 2025"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/specialistes-de-la-construction",
+    "titre": "Spécialistes de la construction",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 02:59",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Assurance Tous Risques Chantiers (TRC) Chez ASTREE, vos projets de construction sont entre de bonnes mains : assurez chaque détail avec l’Assurance Tous Risques Chantier"
+      },
+      {
+        "titre": "",
+        "contenu": "Assurance Tous Risques Montage (TRM) Pour une protection complète et sans failles de vos installations en cours d’assemblage, faites confiance à notre assurance tous risques montage."
+      },
+      {
+        "titre": "",
+        "contenu": "Engins de Chantier Travaillez et bâtissez sans interruption : L’assurance engins de chantier sera votre partenaire sur le terrain"
+      },
+      {
+        "titre": "",
+        "contenu": "Responsabilités décennale 10 ans de tranquillité pour vos constructions : Découvrez les larges garanties offertes par notre assurance Responsabilité décennale"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Relation de Confiance Durable Choisir ASTREE, c'est établir une relation basée sur la proximité, la transparence et l’engagement pour toujours mieux vous accompagner. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Innovation au Cœur de Nos Services Choisir ASTREE, c'est profiter d’outils modernes et performants pour simplifier vos démarches et vous assurer une expérience fluide et efficace. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Expertise Qui Fait la Différence Choisir ASTREE, c'est bénéficier d’un savoir-faire éprouvé pour vous offrir des solutions fiables et adaptées à vos besoins spécifiques. Trouver votre agence"
+      },
+      {
+        "titre": "Certification MSI 20000 ®️",
+        "contenu": "25  juin,  2026 Certification MSI 20000 ®️"
+      },
+      {
+        "titre": "SALON AUTO-EXPO SOUSSE",
+        "contenu": "12  novembre,  2025 SALON AUTO-EXPO SOUSSE"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - Madame Oumayma BETBOUT",
+        "contenu": "24  octobre,  2025 Témoignage de notre Agent Général - Madame Oumayma BETBOUT"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - M. Chokri ABID",
+        "contenu": "26  septembre,  2025 Témoignage de notre Agent Général - M. Chokri ABID"
+      },
+      {
+        "titre": "Assemblée Général Ordinaire - juin 2025",
+        "contenu": "23  juin,  2025 Assemblée Général Ordinaire - juin 2025"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/espace-agriculteurs",
+    "titre": "Espace Agriculteurs",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-11 18:21",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Assurance Mortalité des Animaux L’assurance Mortalité des animaux vous permet de protéger vos élevages et de garantir la pérennité de votre exploitation."
+      },
+      {
+        "titre": "",
+        "contenu": "Assurance Multirisques Serres Investissez dans la sécurité de votre exploitation en assurant vos serres et récoltez la sérénité et la tranquillité d’esprit."
+      },
+      {
+        "titre": "",
+        "contenu": "Assurance Incendie récolte Parce qu’une étincelle peut réduire en cendre le fruit de votre travail, ASTREE veille sur vos récoltes et vous permet de cultiver en toute confiance."
+      },
+      {
+        "titre": "",
+        "contenu": "Assurance Grêle Protégez vos récoltes des caprices de la météo : Choisissez notre assurance grêle et cultivez l’avenir en toute sérénité."
+      },
+      {
+        "titre": "",
+        "contenu": "Une Relation de Confiance Durable Choisir ASTREE, c'est établir une relation basée sur la proximité, la transparence et l’engagement pour toujours mieux vous accompagner. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Innovation au Cœur de Nos Services Choisir ASTREE, c'est profiter d’outils modernes et performants pour simplifier vos démarches et vous assurer une expérience fluide et efficace. Trouver votre agence"
+      },
+      {
+        "titre": "",
+        "contenu": "Une Expertise Qui Fait la Différence Choisir ASTREE, c'est bénéficier d’un savoir-faire éprouvé pour vous offrir des solutions fiables et adaptées à vos besoins spécifiques. Trouver votre agence"
+      },
+      {
+        "titre": "Certification MSI 20000 ®️",
+        "contenu": "25  juin,  2026 Certification MSI 20000 ®️"
+      },
+      {
+        "titre": "SALON AUTO-EXPO SOUSSE",
+        "contenu": "12  novembre,  2025 SALON AUTO-EXPO SOUSSE"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - Madame Oumayma BETBOUT",
+        "contenu": "24  octobre,  2025 Témoignage de notre Agent Général - Madame Oumayma BETBOUT"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - M. Chokri ABID",
+        "contenu": "26  septembre,  2025 Témoignage de notre Agent Général - M. Chokri ABID"
+      },
+      {
+        "titre": "Assemblée Général Ordinaire - juin 2025",
+        "contenu": "23  juin,  2025 Assemblée Général Ordinaire - juin 2025"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": [],
+    "contact": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/actualite",
+    "titre": "Actualités & évènements",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 03:00",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "25  juin,  2026 Certification MSI 20000 ®️ Lire plus"
+      },
+      {
+        "titre": "",
+        "contenu": "20  novembre,  2024 Les moments forts de notre participation au Salon de l'entreprise de Sfax voir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "30  septembre,  2024 Nouvelle agence ASTREE à EL Omrane - Tunis voir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "27  février,  2025 Reboisement à Sejnane En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "22  février,  2025 Journée d'entreprise 2025 En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "27  février,  2025 Reboisement à Sejnane En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "22  février,  2025 Journée d'entreprise 2025 En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "27  février,  2025 Reboisement à Sejnane En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "22  février,  2025 Journée d'entreprise 2025 En savoir plus"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/publications",
+    "titre": "Publications",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 03:00",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "10  juin,  2026 Rapport Rapport annuel 2025 Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "10  juin,  2026 Rapport Rapport annuel 2025 - Version Arabe Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "10  juin,  2026 Rapport Rapport de Durabilité 2025-2024 Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "23  juin,  2025 Rapport Rapport annuel 2024 - Version Arabe Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "23  juin,  2025 Rapport Rapport annuel 2024 Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "24  juin,  2024 Rapport Rapport annuel 2023 Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "15  juin,  2023 Rapport Rapport annuel 2022 - Version Arabe Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "15  juin,  2023 Rapport Rapport annuel 2022 Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "23  mai,  2022 Rapport Rapport annuel 2021 Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "23  mai,  2022 Rapport Rapport annuel 2021 - Version Arabe Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "14  juin,  2021 Rapport Rapport annuel 2020 Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "17  juin,  2020 Rapport Rapport annuel 2019 Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "27  février,  2025 Reboisement à Sejnane En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "22  février,  2025 Journée d'entreprise 2025 En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "27  février,  2025 Reboisement à Sejnane En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "22  février,  2025 Journée d'entreprise 2025 En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "27  février,  2025 Reboisement à Sejnane En savoir plus"
+      },
+      {
+        "titre": "",
+        "contenu": "22  février,  2025 Journée d'entreprise 2025 En savoir plus"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/conformite-reglementaire",
+    "titre": "Conformité réglementaire",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 03:00",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [
+      {
+        "titre": "",
+        "contenu": "Charte de protection des données personnelles Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "Lutte contre le blanchiment d'argent et le financement du terrorisme Télécharger"
+      },
+      {
+        "titre": "",
+        "contenu": "Notice d’information sur la législation FATCA Télécharger"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/faq",
+    "titre": "FAQ",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 03:00",
+    "introduction": {
+      "desc1": "Consultez notre liste de questions fréquemment posées pour obtenir des clarifications sur nos offres et services.",
+      "desc2": "Nous avons regroupé les informations essentielles pour vous aider."
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [
+      {
+        "question": "Qu'est-ce qui est couvert par l'assurance auto tous risques ?",
+        "reponse": "Nous recommandons de commencer par évaluer vos besoins spécifiques en matière de protection et de sécurité. Utilisez notre simulateur en ligne pour comparer les options disponibles et obtenir des recommandations personnalisées."
+      },
+      {
+        "question": "Que dois-je faire pour assurer mon véhicule ?",
+        "reponse": "Afin d’assurer votre véhicule, Vous êtes invités à nous fournir les pièces suivantes : Une copie de la carte grise, Remplir un formulaire de déclaration de risque tout en précisant les garanties souhaitées et un relevé Bonus/Malus, sauf pour les jeunes conducteurs, délivré obligatoirement par votre ancien assureur Une copie de l’attestation délivrée lors de la visite technique pour les véhicules âgés de plus de trois ans. Une copie de la quittance de règlement de la taxe de circulation de l’année en cours"
+      },
+      {
+        "question": "Quels sont les biens couverts par un contrat d’assurance Multirisques Habitation ?",
+        "reponse": "Sont couverts par la présente assurance : Les locaux et leurs dépendances Les installations et aménagements intérieurs de ces locaux Les murs de soutènements indispensables à la stabilité des bâtiments Les terrasses attenantes aux locaux d’habitation"
+      },
+      {
+        "question": "Comment est calculée la prime d'assurance ?",
+        "reponse": "Elle est déterminée en fonction de critères comme le montant du prêt, la durée, votre âge, et votre état de santé."
+      },
+      {
+        "question": "Puis-je modifier ma couverture en cours de contrat ?",
+        "reponse": "Oui, il est possible d’ajuster vos garanties en contactant notre service client."
+      },
+      {
+        "question": "Quand la couverture est-elle effective ?",
+        "reponse": "Elle démarre dès la signature du contrat et le paiement de la première prime."
+      },
+      {
+        "question": "Que se passe-t-il en cas de remboursement anticipé du prêt ?",
+        "reponse": "Une ristourne sur la prime non consommée peut être accordée. Contactez notre service client pour en connaître les modalités."
+      },
+      {
+        "question": "Pourquoi choisir Protect Prévoyance Plus ?",
+        "reponse": "En optant pour notre solution d’assurance emprunteur, vous bénéficiez : D’une expertise reconnue pour une gestion optimale de vos besoins. De garanties solides adaptées à votre profil financier et personnel. De la sécurité pour vos proches avec une prise en charge complète en cas d’imprévu. Avec Protect Prévoyance Plus , avancez sereinement dans vos projets, l'esprit tranquille."
+      },
+      {
+        "question": "Qu'est-ce qu'un contrat d'épargne par capitalisation ?",
+        "reponse": "C’est un contrat qui vous permet de constituer un capital sur le long terme, tout en profitant d’avantages fiscaux et d’une gestion sécurisée."
+      },
+      {
+        "question": "Quels sont les principaux avantages d'Épargne Plus ?",
+        "reponse": "Liberté totale des versements. Fiscalité avantageuse après 8 ans. Possibilité de rachat partiel ou total pour des besoins urgents. Protection des bénéficiaires en cas de décès."
+      }
+    ],
+    "cards": [],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/contact",
+    "titre": "Contact",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-21 14:30",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [],
+    "gouvernance": [],
+    "chiffres_cles": [],
+    "contact": [
+      {
+        "texte": "Informations de contact Adresse: 45, Avenue Khaireddine Pacha, B.P. 780 TUNIS Cedex Tél: (+216) 71 90 42 11 E-mail: courrier@astree.com.tn Nos agences Besoin d'aide? Parlons ensemble! Veuillez remplir le formulaire ci-dessous pour nous contacter. Notre équipe se fera un plaisir de répondre à vos questions et de vous apporter l'assistance nécessaire dans les plus brefs délais. Nom et Prénom Téléphone Email Sujet Messages J'autorise à ASTREE à collecter et à exploiter mes données personnelles dans le cadre de ma demande."
+      }
+    ]
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/carrieres",
+    "titre": "Carrières",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 03:01",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [
+      {
+        "question": "Un accompagnement permanent",
+        "reponse": "Bénéficiez d'une assistance personnalisée et d'une présence continue pour garantir votre tranquillité"
+      },
+      {
+        "question": "Une formation sur mesure",
+        "reponse": "Bénéficiez d’un soutien adapté et d’un réseau fiable pour garantir votre réussite."
+      },
+      {
+        "question": "Une carrière évolutive",
+        "reponse": "Découvrez les opportunités de développement pour bâtir un avenir professionnel prometteur."
+      },
+      {
+        "question": "Un environnement stimulant",
+        "reponse": "Profitez d’un accompagnement de confiance pour atteindre vos objectifs en toute sérénité."
+      }
+    ],
+    "cards": [
+      {
+        "titre": "Certification MSI 20000 ®️",
+        "contenu": "25  juin,  2026 Certification MSI 20000 ®️"
+      },
+      {
+        "titre": "SALON AUTO-EXPO SOUSSE",
+        "contenu": "12  novembre,  2025 SALON AUTO-EXPO SOUSSE"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - Madame Oumayma BETBOUT",
+        "contenu": "24  octobre,  2025 Témoignage de notre Agent Général - Madame Oumayma BETBOUT"
+      },
+      {
+        "titre": "Témoignage de notre Agent Général - M. Chokri ABID",
+        "contenu": "26  septembre,  2025 Témoignage de notre Agent Général - M. Chokri ABID"
+      },
+      {
+        "titre": "Assemblée Général Ordinaire - juin 2025",
+        "contenu": "23  juin,  2025 Assemblée Général Ordinaire - juin 2025"
+      }
+    ],
+    "gouvernance": [],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/astree/gouvernance",
+    "titre": "Gouvernance",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 03:01",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [],
+    "gouvernance": [
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "M. Hichem REBAI Président du Conseil d’Administration"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "M. Moez DIMASSI Directeur Général"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "Administrateurs M. Zouheir HASSEN M. Ahmed KAMMOUN M. Mohamed TRIFA Administrateur indépendant M. Sami ZGHAL Administrateur indépendant M. Hafedh KHLIFI Administrateur représentant des actionnaires minoritaires"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "M. Zouheir HASSEN"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "M. Ahmed KAMMOUN"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "M. Mohamed TRIFA Administrateur indépendant"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "M. Sami ZGHAL Administrateur indépendant"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "M. Hafedh KHLIFI Administrateur représentant des actionnaires minoritaires"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "La Banque de Tunisie représentée par Mme Maha ZOUAOUI La Banque Fédérative du Crédit Mutuel (BFCM) représenté par M. Eric CHARPENTIER Le Groupe des Assurances du Crédit Mutuel (GACM) représenté par M. Loïc GUYOT"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "La Banque de Tunisie représentée par Mme Maha ZOUAOUI"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "La Banque Fédérative du Crédit Mutuel (BFCM) représenté par M. Eric CHARPENTIER"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "Le Groupe des Assurances du Crédit Mutuel (GACM) représenté par M. Loïc GUYOT"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "Comités rattachés au Conseil d’Administration Comité Permanent d’Audit Interne Comité des Risques Comité de Nomination et de Rémunération"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "Comité Permanent d’Audit Interne"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "Comité des Risques"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "Comité de Nomination et de Rémunération"
+      },
+      {
+        "section": "Composition du Conseil d’Administration",
+        "texte": "Commissaires aux Comptes Cabinet « Les Commissaires aux Comptes Associés- M.T.B.F » membre de PwC Network représenté par Monsieur Ahmed SAHNOUN Cabinet « FINOR » représenté par Monsieur Karim DEROUICHE"
+      }
+    ],
+    "chiffres_cles": []
+  },
+  {
+    "url": "https://www.astree.com.tn/fr/astree/chiffres-cles",
+    "titre": "chiffres clés",
+    "telephone": "+21671904211",
+    "date_scraping": "2026-07-09 03:01",
+    "introduction": {
+      "desc1": "",
+      "desc2": ""
+    },
+    "garanties": [],
+    "avantages": [],
+    "sinistre": [],
+    "faqs": [],
+    "cards": [],
+    "gouvernance": [],
+    "chiffres_cles": [
+      {
+        "titre": "Chiffre d’Affaires",
+        "texte": "278MD"
+      },
+      {
+        "titre": "Résultat net de l’exercice",
+        "texte": "34,8MD"
+      },
+      {
+        "titre": "Résultat brut de l’exercice",
+        "texte": "47,7MD"
+      },
+      {
+        "titre": "",
+        "texte": "234 Collaborateurs"
+      },
+      {
+        "titre": "",
+        "texte": "940 MD Actifs sous gestion"
+      },
+      {
+        "titre": "",
+        "texte": "204MD Fonds propres"
+      },
+      {
+        "titre": "",
+        "texte": "45.9 TND Cours de l’action au 31/12/2025"
+      },
+      {
+        "titre": "",
+        "texte": "72 Agences"
+      },
+      {
+        "titre": "",
+        "texte": "43 Courtiers"
+      }
+    ]
+  }
+]
