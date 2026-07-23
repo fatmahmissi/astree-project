@@ -35,10 +35,10 @@ load_dotenv()
 # ============================================================
 CHROMA_PATH = os.getenv("CHROMA_PATH", "./output/chroma_db")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME", "astree_rag_v2")
-EMBEDDING_MODEL_NAME = os.getenv(
-    "EMBEDDING_MODEL",
-    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-)
+SUPPORTED_EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL", SUPPORTED_EMBEDDING_MODEL)
+if EMBEDDING_MODEL_NAME == "intfloat/multilingual-e5-small":
+    EMBEDDING_MODEL_NAME = SUPPORTED_EMBEDDING_MODEL
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
