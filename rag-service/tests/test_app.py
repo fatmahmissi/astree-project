@@ -22,6 +22,12 @@ class DummyCollection:
     def count(self):
         return 0
 
+    def query(self, *args, **kwargs):
+        return {"documents": [[]], "metadatas": [[]], "distances": [[]]}
+
+    def get(self, *args, **kwargs):
+        return {"documents": [], "metadatas": []}
+
 
 class DummyPersistentClient:
     def __init__(self, *args, **kwargs):
@@ -151,7 +157,22 @@ class AppImportTest(unittest.TestCase):
 
         self.assertEqual(chunks, [])
         self.assertIn("bonjour", reply.lower())
+        self.assertIn("assistant", reply.lower())
+        self.assertIn("documentation officielle", reply.lower())
         self.assertNotIn("Je n'ai pas trouve cette information", reply)
+
+    def test_contact_questions_are_refused_without_explicit_documentation(self):
+        app_path = Path(__file__).resolve().parents[1] / "app.py"
+        spec = importlib.util.spec_from_file_location(self.module_name, app_path)
+        module = importlib.util.module_from_spec(spec)
+        sys.modules[self.module_name] = module
+        spec.loader.exec_module(module)
+
+        reply, chunks = module.ask("quel est numero de telephone d'assistant")
+
+        self.assertEqual(chunks, [])
+        self.assertIn("Je n'ai pas trouve cette information", reply)
+        self.assertNotIn("71 104 555", reply)
 
 
 if __name__ == "__main__":

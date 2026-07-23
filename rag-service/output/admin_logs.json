@@ -665,5 +665,328 @@
       }
     ],
     "nb_chunks": 3
+  },
+  {
+    "timestamp": "2026-07-23T18:40:23.797803+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "En cas de sinistre, vous bénéficiez d'une prise en charge rapide pour vous permettre de reprendre vos activités sans délai. Nous nous engageons à traiter vos demandes d'indemnisation avec efficacité et transparence.\n\n(Source : Matériel informatique - https://www.astree.com.tn/fr/particulier/materiel-informatique ; Nos agences - https://www.astree.com.tn/fr/agences ; FAQ - https://www.astree.com.tn/fr/faq)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/materiel-informatique",
+        "page_titre": "Matériel informatique",
+        "distance": 0.400381863117218
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.4025081992149353
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/faq",
+        "page_titre": "FAQ",
+        "distance": 0.4025081992149353
+      }
+    ],
+    "nb_chunks": 3
+  },
+  {
+    "timestamp": "2026-07-23T18:46:08.154432+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "En cas de sinistre, vous bénéficiez d'une prise en charge rapide pour vous permettre de reprendre vos activités sans délai. Nous nous engageons à traiter vos demandes d'indemnisation avec efficacité et transparence.\n\n(Source : Matériel informatique - https://www.astree.com.tn/fr/particulier/materiel-informatique ; Nos agences - https://www.astree.com.tn/fr/agences ; FAQ - https://www.astree.com.tn/fr/faq)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/materiel-informatique",
+        "page_titre": "Matériel informatique",
+        "distance": 0.400381863117218
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.4025081992149353
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/faq",
+        "page_titre": "FAQ",
+        "distance": 0.4025081992149353
+      }
+    ],
+    "nb_chunks": 3
+  },
+  {
+    "timestamp": "2026-07-23T18:46:58.513697+00:00",
+    "question": "Comment declarer un sinistre auto ?",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.4005197286605835
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.40998464822769165
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T18:49:13.216252+00:00",
+    "question": "combien degre de tempurture aujourd'hui",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/espace-agriculteurs",
+        "page_titre": "Espace Agriculteurs",
+        "distance": 0.2900795340538025
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/agences",
+        "page_titre": "Nos agences",
+        "distance": 0.2980306148529053
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/faq",
+        "page_titre": "FAQ",
+        "distance": 0.2980306148529053
+      }
+    ],
+    "nb_chunks": 3
+  },
+  {
+    "timestamp": "2026-07-23T18:49:42.999388+00:00",
+    "question": "combien statitistique de chiffre d'affarire de tunisie",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/astree/presentation",
+        "page_titre": "Présentation",
+        "distance": 0.2968218922615051
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.4842774271965027
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/entreprises-professionnels",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.4842774271965027
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-23T18:56:28.472985+00:00",
+    "question": "Comment déclarer un sinistre auto ?",
+    "answer": "Pour déclarer un sinistre auto, vous devez remplir soigneusement le constat amiable et le déposer dans l'un de nos centres d'expertise pour une évaluation du véhicule. Après l'accord de l'expert, vous pouvez réparer votre véhicule et ramener les factures au centre d'expertise. Une deuxième expertise peut être effectuée après réparation. Vous serez appelé dans les 15 jours pour récupérer votre chèque d'indemnisation.\n\n(Source : Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-23T18:57:04.154662+00:00",
+    "question": "quel est le degré de tempurature ajourd'hui",
+    "answer": "Je n'ai pas trouve cette information dans la documentation ASTREE.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T19:07:59.382287+00:00",
+    "question": "bonjour",
+    "answer": "Bonjour ! Comment puis-je vous aider avec ASTREE ?",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T19:08:51.394106+00:00",
+    "question": "bonjour",
+    "answer": "Bonjour, je suis l'assistant ASTREE Assurances. Posez-moi une question sur vos assurances (habitation, auto, voyage...) et je m'appuie sur la documentation officielle pour vous répondre.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T19:09:28.874302+00:00",
+    "question": "bonjour",
+    "answer": "Bonjour, je suis l'assistant ASTREE Assurances. Posez-moi une question sur vos assurances (habitation, auto, voyage...) et je m'appuie sur la documentation officielle pour vous répondre.",
+    "sources": [],
+    "nb_chunks": 0
+  },
+  {
+    "timestamp": "2026-07-23T19:11:49.712564+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "Pour déclarer un sinistre, vous devez le faire dès que possible. Vous devez préciser la date, les circonstances et les causes connues ou présumées de l'incident. Une description détaillée des dommages, ainsi que leur estimation, doit être fournie.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation ; Matériel informatique - https://www.astree.com.tn/fr/particulier/materiel-informatique)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/materiel-informatique",
+        "page_titre": "Matériel informatique",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T19:12:00.552475+00:00",
+    "question": "comment declare une sinistre auto",
+    "answer": "Pour déclarer un sinistre auto, vous devez remplir soigneusement le constat amiable et le déposer dans l'un de nos centres d'expertise pour une évaluation du véhicule. Après l'accord de l'expert, réparez votre véhicule et ramenez les factures au centre d'expertise. Une deuxième expertise peut être effectuée après réparation. Vous serez appelé dans les 15 jours pour récupérer votre chèque d'indemnisation.\n\n(Source : Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-23T19:12:11.613321+00:00",
+    "question": "comment faire une assurance bateau",
+    "answer": "Pour faire une assurance bateau, vous pouvez découvrir nos solutions d'assurances pour les corps de plaisance. Nous vous protégerons votre bateau et vous serez tranquille pour vos voyages. (Voir le contenu du )\n\n(Source : Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/particuliers ; Voyage - https://www.astree.com.tn/fr/particulier/voyage ; Habitation - https://www.astree.com.tn/fr/particulier/habitation ; Automobile - https://www.astree.com.tn/fr/particulier/automobile ; Bateau - https://www.astree.com.tn/fr/particulier/bateau)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/voyage",
+        "page_titre": "Voyage",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/bateau",
+        "page_titre": "Bateau",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-23T19:12:39.892280+00:00",
+    "question": "quel est numero telephone d'assistant",
+    "answer": "Je n'ai pas trouve ce numéro de téléphone d'assistant dans la documentation ASTREE.\n\n(Source : Contact - https://www.astree.com.tn/fr/contact ; Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/contact",
+        "page_titre": "Contact",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T19:12:55.407938+00:00",
+    "question": "quel est numero de telephone d'assistant",
+    "answer": "Je n'ai pas trouve ce numéro de téléphone d'assistant dans la documentation ASTREE. Cependant, je trouve un numéro de téléphone pour l'assistance en cas de panne automobile: 71 104 555.\n\n(Source : Contact - https://www.astree.com.tn/fr/contact ; Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/contact",
+        "page_titre": "Contact",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T19:13:25.702558+00:00",
+    "question": "quel est contact d'assistant",
+    "answer": "Vous pouvez contacter l'assistant en appelant le numéro 71 90 42 11 ou en remplissant le formulaire de contact sur le site web d'ASTREE.\n\n(Source : Contact - https://www.astree.com.tn/fr/contact ; Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/contact",
+        "page_titre": "Contact",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T19:17:14.993911+00:00",
+    "question": "quel le numero de telephone d'assistaant",
+    "answer": "Appelez le numéro 71 104 555 pour joindre notre assistance en cas de panne automobile.\n\n(Source : Contact - https://www.astree.com.tn/fr/contact ; Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/contact",
+        "page_titre": "Contact",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T19:17:28.963257+00:00",
+    "question": "comment contacter l'assitant",
+    "answer": "Appelez le numéro 71 90 42 11 pour joindre notre assistance.\n\n(Source : Contact - https://www.astree.com.tn/fr/contact ; Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/contact",
+        "page_titre": "Contact",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T19:17:44.315494+00:00",
+    "question": "quel est le contact",
+    "answer": "Vous pouvez nous contacter par téléphone au 71 90 42 11 ou par email à courrier@astree.com.tn.\n\n(Source : Contact - https://www.astree.com.tn/fr/contact ; Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/contact",
+        "page_titre": "Contact",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
   }
 ]

@@ -81,6 +81,11 @@ HORS_SUJET_EXACT = (
     "Cette question ne concerne pas les services ou produits ASTREE.\n"
     "Je peux uniquement repondre aux questions liees aux assurances ASTREE."
 )
+GREETING_MESSAGE = (
+    "Bonjour, je suis l'assistant ASTREE Assurances. "
+    "Comment puis-je vous aider concernant vos assurances (habitation, auto, voyage...) ? "
+    "Je m'appuie sur la documentation officielle pour vous répondre."
+)
 
 SYSTEM_PROMPT = """Tu es l'assistant officiel d'ASTREE Assurances.
 
@@ -115,6 +120,11 @@ REGLES OBLIGATOIRES :
     la plus faible.
 15. Si tu utilises la phrase de refus (regle 6) ou la phrase hors-sujet (regle 12),
     n'ajoute STRICTEMENT RIEN d'autre apres.
+16. Si l'utilisateur dit simplement bonjour, bonsoir, salut ou hello, reponds avec
+    un message de bienvenue court et naturel :
+    Bonjour, je suis l'assistant ASTREE Assurances. Posez-moi une question sur vos
+    assurances (habitation, auto, voyage...) et je m'appuie sur la documentation
+    officielle pour vous répondre.
 """
 
 # ============================================================
@@ -376,7 +386,25 @@ def nettoyer_reponse(reponse):
     return texte
 
 
+def est_requete_contact_sans_preuve(question, context):
+    if not context:
+        return False
+    texte = _normaliser_accents(context)
+    q = _normaliser(question)
+    mots_contact = ("telephone", "téléphone", "contact", "numero", "numéro", "assistant")
+    if not any(mot in q for mot in mots_contact):
+        return False
+    if re.search(r"\b\d{2}(?:[ .-]?\d{2}){3}\b", texte):
+        return False
+    if re.search(r"\b(?:tel|telephone|téléphone|contact|numero|numéro)\b", texte):
+        return False
+    return True
+
+
 def generate_answer(question, context, chunks, history=None):
+    if est_requete_contact_sans_preuve(question, context):
+        return REFUS_EXACT
+
     client = get_groq_client()
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
     if history:
@@ -420,12 +448,15 @@ def ask(question, history=None):
         return REFUS_EXACT, []
 
     if re.fullmatch(r"(?:bonjour|salut|bonsoir|hello|hi)\s*!?", _normaliser(question_nettoyee)):
-        return "Bonjour ! Comment puis-je vous aider avec ASTREE ?", []
+        return GREETING_MESSAGE, []
 
     chunks = retrieve_chunks(question_nettoyee)
     context = build_context(chunks)
 
     if context is None:
+        return REFUS_EXACT, []
+
+    if est_requete_contact_sans_preuve(question_nettoyee, context):
         return REFUS_EXACT, []
 
     answer = generate_answer(question_nettoyee, context, chunks, history)
