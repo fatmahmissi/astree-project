@@ -211,6 +211,30 @@ def est_generique(url):
     return url in URLS_GENERIQUES
 
 
+def retrieve_chunks_lexical(question, col):
+    mots_cles = extraire_mots_cles(question)
+    if not mots_cles:
+        return []
+
+    donnees = col.get(include=["documents", "metadatas"])
+    candidates = []
+    for doc, meta in zip(donnees["documents"], donnees["metadatas"]):
+        texte = _normaliser(doc)
+        nb_matches = sum(1 for mot in mots_cles if _radical(mot) in texte)
+        if nb_matches < 2:
+            continue
+        candidates.append({
+            "document": doc,
+            "url": meta.get("url", ""),
+            "page_titre": meta.get("page_titre", ""),
+            "distance": 0.59,
+            "score": -nb_matches,
+        })
+
+    candidates.sort(key=lambda x: x["score"])
+    return candidates[:TOP_K_FINAL]
+
+
 def retrieve_chunks(question):
     model = get_embedding_model()
     col = get_collection()
@@ -249,7 +273,7 @@ def retrieve_chunks(question):
         })
 
     if not candidates:
-        return []
+        return retrieve_chunks_lexical(question, col)
 
     candidates.sort(key=lambda x: x["score"])
 
