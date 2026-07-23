@@ -11,11 +11,15 @@ const options = {
         'Permet d\'envoyer des questions et de recuperer l\'historique des conversations.',
     },
     servers: [
-      {
-        url: 'http://localhost:3000',
-        description: 'Serveur local de developpement',
-      },
-    ],
+  {
+    url: 'https://astree-backend.onrender.com',
+    description: 'Serveur de production (Render)',
+  },
+  {
+    url: 'http://localhost:3000',
+    description: 'Serveur local de developpement',
+  },
+],
   },
   apis: ['./src/routes/*.js'],
 };
