@@ -216,17 +216,26 @@ def retrieve_chunks_lexical(question, col):
     if not mots_cles:
         return []
 
+    question_norm = _normaliser(question)
+    demande_auto = any(
+        terme in question_norm
+        for terme in ("auto", "automobile", "vehicule", "voiture")
+    )
     donnees = col.get(include=["documents", "metadatas"])
     candidates = []
     for doc, meta in zip(donnees["documents"], donnees["metadatas"]):
-        texte = _normaliser(doc)
+        titre = meta.get("page_titre", "")
+        url = meta.get("url", "")
+        texte = _normaliser(f"{titre} {url} {doc}")
+        if demande_auto and "automobile" not in texte and "auto" not in texte:
+            continue
         nb_matches = sum(1 for mot in mots_cles if _radical(mot) in texte)
-        if nb_matches < 2:
+        if nb_matches < (1 if demande_auto else 2):
             continue
         candidates.append({
             "document": doc,
-            "url": meta.get("url", ""),
-            "page_titre": meta.get("page_titre", ""),
+            "url": url,
+            "page_titre": titre,
             "distance": 0.59,
             "score": -nb_matches,
         })
@@ -238,6 +247,16 @@ def retrieve_chunks_lexical(question, col):
 def retrieve_chunks(question):
     model = get_embedding_model()
     col = get_collection()
+
+    question_norm = _normaliser(question)
+    demande_auto = any(
+        terme in question_norm
+        for terme in ("auto", "automobile", "vehicule", "voiture")
+    )
+    if demande_auto:
+        lexical_chunks = retrieve_chunks_lexical(question, col)
+        if lexical_chunks:
+            return lexical_chunks
 
     query_text = question
     if "e5" in EMBEDDING_MODEL_NAME.lower():
