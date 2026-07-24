@@ -35,9 +35,18 @@ app.use(errorHandler);
 
 async function demarrer() {
   await connecterMongoDB();
-  app.listen(PORT, () => {
+  const server = app.listen(PORT, () => {
     console.log(`Serveur demarre sur http://localhost:${PORT}`);
     console.log(`Documentation API : http://localhost:${PORT}/api-docs`);
+  });
+
+  server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+      console.error(`Le port ${PORT} est deja utilise. Verifiez qu'aucun autre processus n'utilise ce port ou changez-le dans .env.`);
+    } else {
+      console.error('Erreur de demarrage du serveur :', err);
+    }
+    process.exit(1);
   });
 }
 
