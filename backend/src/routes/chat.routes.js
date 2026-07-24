@@ -96,12 +96,18 @@ router.post('/chat', async (req, res, next) => {
       nbChunks: resultat.nbChunks,
       dureeMs: resultat.dureeMs,
     });
-  }  catch (erreur) {
+  } catch (erreur) {
     if (
       erreur.message.includes('injoignable') ||
-      erreur.response?.status === 502
+      erreur.status === 503 ||
+      erreur.response?.status === 502 ||
+      erreur.response?.status === 503 ||
+      erreur.response?.status === 504
     ) {
       erreur.status = 503;
+      if (!erreur.message.includes('service RAG')) {
+        erreur.message = 'Le service RAG est temporairement indisponible. Reessayez dans un instant.';
+      }
     }
     next(erreur);
   }
