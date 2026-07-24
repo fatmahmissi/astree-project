@@ -151,30 +151,6 @@ router.post('/chat', async (req, res, next) => {
  *       400:
  *         description: sessionId manquant
  */
-router.get('/historique/:sessionId', async (req, res, next) => {
-  try {
-    const { sessionId } = req.params;
-
-    if (!sessionId) {
-      return res.status(400).json({ erreur: true, message: 'sessionId requis.' });
-    }
-
-    const messages = await obtenirHistorique(sessionId);
-
-    res.json({
-      sessionId,
-      messages: messages.map((m) => ({
-        question: m.question,
-        reponse: m.reponse,
-        sources: m.sources,
-        createdAt: m.createdAt,
-      })),
-    });
-  } catch (erreur) {
-    next(erreur);
-  }
-});
-
 /**
  * @openapi
  * /api/historique/global:
@@ -221,6 +197,30 @@ router.get('/historique/global', async (req, res, next) => {
         createdAt: m.createdAt,
       }))
     );
+  } catch (erreur) {
+    next(erreur);
+  }
+});
+
+router.get('/historique/:sessionId', async (req, res, next) => {
+  try {
+    const { sessionId } = req.params;
+
+    if (!sessionId) {
+      return res.status(400).json({ erreur: true, message: 'sessionId requis.' });
+    }
+
+    const messages = await obtenirHistorique(sessionId);
+
+    res.json({
+      sessionId,
+      messages: messages.map((m) => ({
+        question: m.question,
+        reponse: m.reponse,
+        sources: m.sources,
+        createdAt: m.createdAt,
+      })),
+    });
   } catch (erreur) {
     next(erreur);
   }
