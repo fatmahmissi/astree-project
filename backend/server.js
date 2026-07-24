@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const swaggerUi = require('swagger-ui-express');
 
 const connecterMongoDB = require('./src/config/db');
@@ -15,17 +16,21 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Documentation Swagger : http://localhost:3000/api-docs
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
-
-// Routes principales
 app.use('/api', chatRoutes);
 
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', service: 'astree-chatbot-backend' });
 });
 
-// Gestion centralisee des erreurs (toujours en dernier)
+// Sert le frontend build (React) depuis backend/public
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Toute route non-API renvoie index.html (nécessaire pour le routing côté React)
+app.get(/^(?!\/api|\/api-docs|\/health).*/, (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 app.use(errorHandler);
 
 async function demarrer() {
@@ -36,8 +41,6 @@ async function demarrer() {
   });
 }
 
-// On ne demarre le serveur que si ce fichier est execute directement
-// (et pas quand il est importe par les tests Jest/Supertest).
 if (require.main === module) {
   demarrer();
 }

@@ -988,5 +988,97 @@
       }
     ],
     "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T20:11:46.535879+00:00",
+    "question": "comment declare une sinistre",
+    "answer": "Pour déclarer un sinistre, vous devez le faire dès que possible, en précisant la date, les circonstances, et les causes connues ou présumées de l'incident. Une description détaillée des dommages, ainsi que leur estimation, doit être fournie.\n\n(Source : Habitation - https://www.astree.com.tn/fr/particulier/habitation ; Matériel informatique - https://www.astree.com.tn/fr/particulier/materiel-informatique)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/materiel-informatique",
+        "page_titre": "Matériel informatique",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
+  },
+  {
+    "timestamp": "2026-07-23T20:13:19.002728+00:00",
+    "question": "Que couvre l'assurance voyage ?",
+    "answer": "L'assurance voyage couvre votre protection pendant vos déplacements, vous permettant de voyager l'esprit léger.\n\n(Source : Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/particuliers ; Voyage - https://www.astree.com.tn/fr/particulier/voyage ; Habitation - https://www.astree.com.tn/fr/particulier/habitation ; Automobile - https://www.astree.com.tn/fr/particulier/automobile ; Garanties des Accidents de la Vie - https://www.astree.com.tn/fr/particulier/garanties-des-accidents-de-la-vie)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/voyage",
+        "page_titre": "Voyage",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/habitation",
+        "page_titre": "Habitation",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/garanties-des-accidents-de-la-vie",
+        "page_titre": "Garanties des Accidents de la Vie",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-23T20:24:04.965128+00:00",
+    "question": "comment faire assurance enfant",
+    "answer": "Pour faire assurance enfant, vous pouvez souscrire à l'assurance scolaire qui garantit la sécurité des enfants scolarisés contre les accidents survenant dans toutes les sphères de leur vie quotidienne. Cette couverture vise à garantir les enfants en âge de scolarité des dommages corporels par suite d'un accident dans toutes les circonstances de leur vie privée, scolaire, parascolaire ou estudiantine. En cas de décès, une indemnisation financière est versée aux bénéficiaires désignés pour faire face aux conséquences de cette perte, ainsi qu'une prise en charge des frais liés aux obsèques.\n\n(Source : Protections Complètes pour Tous Vos Biens - https://www.astree.com.tn/fr/particuliers ; Voyage - https://www.astree.com.tn/fr/particulier/voyage ; Assurances Individuelles Scolaire - https://www.astree.com.tn/fr/particulier/assurances-individuelles-scolaire)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/particuliers",
+        "page_titre": "Protections Complètes pour Tous Vos Biens",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/voyage",
+        "page_titre": "Voyage",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/assurances-individuelles-scolaire",
+        "page_titre": "Assurances Individuelles Scolaire",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 5
+  },
+  {
+    "timestamp": "2026-07-23T20:27:18.655034+00:00",
+    "question": "quel est contact d'assistant",
+    "answer": "Vous pouvez contacter l'assistant ASTREE en utilisant le numéro 71 104 555 pour bénéficier des services de dépannage en cas de panne de votre véhicule.\n\n(Source : Contact - https://www.astree.com.tn/fr/contact ; Automobile - https://www.astree.com.tn/fr/particulier/automobile)",
+    "sources": [
+      {
+        "url": "https://www.astree.com.tn/fr/contact",
+        "page_titre": "Contact",
+        "distance": 0.59
+      },
+      {
+        "url": "https://www.astree.com.tn/fr/particulier/automobile",
+        "page_titre": "Automobile",
+        "distance": 0.59
+      }
+    ],
+    "nb_chunks": 2
   }
 ]
