@@ -51,9 +51,17 @@ async function obtenirDernierEchanges(sessionId, n = 5) {
   return messages.reverse().map((m) => ({ question: m.question, reponse: m.reponse }));
 }
 
+async function obtenirHistoriqueGlobal(limite = 200) {
+  return Message.find({})
+    .sort({ createdAt: -1 })
+    .limit(limite)
+    .lean();
+}
+
 module.exports = {
   obtenirOuCreerSession,
   enregistrerMessage,
   obtenirHistorique,
   obtenirDernierEchanges,
+  obtenirHistoriqueGlobal,
 };

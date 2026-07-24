@@ -7,6 +7,7 @@ const {
   enregistrerMessage,
   obtenirHistorique,
   obtenirDernierEchanges,
+  obtenirHistoriqueGlobal,
 } = require('../services/sessionService');
 
 const router = express.Router();
@@ -160,6 +161,57 @@ router.get('/historique/:sessionId', async (req, res, next) => {
         createdAt: m.createdAt,
       })),
     });
+  } catch (erreur) {
+    next(erreur);
+  }
+});
+
+/**
+ * @openapi
+ * /api/historique/global:
+ *   get:
+ *     summary: Recuperer l'historique global de toutes les sessions
+ *     tags: [Chat]
+ *     responses:
+ *       200:
+ *         description: Liste des echanges de toutes les sessions
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   id:
+ *                     type: string
+ *                   sessionId:
+ *                     type: string
+ *                   question:
+ *                     type: string
+ *                   reponse:
+ *                     type: string
+ *                   sources:
+ *                     type: array
+ *                     items:
+ *                       type: object
+ *                   createdAt:
+ *                     type: string
+ *                     format: date-time
+ */
+router.get('/historique/global', async (req, res, next) => {
+  try {
+    const messages = await obtenirHistoriqueGlobal();
+
+    res.json(
+      messages.map((m) => ({
+        id: m._id,
+        sessionId: m.sessionId,
+        question: m.question,
+        reponse: m.reponse,
+        sources: m.sources,
+        createdAt: m.createdAt,
+      }))
+    );
   } catch (erreur) {
     next(erreur);
   }
