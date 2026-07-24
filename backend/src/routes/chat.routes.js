@@ -96,8 +96,11 @@ router.post('/chat', async (req, res, next) => {
       nbChunks: resultat.nbChunks,
       dureeMs: resultat.dureeMs,
     });
-  } catch (erreur) {
-    if (erreur.message.includes('injoignable')) {
+  }  catch (erreur) {
+    if (
+      erreur.message.includes('injoignable') ||
+      erreur.response?.status === 502
+    ) {
       erreur.status = 503;
     }
     next(erreur);
