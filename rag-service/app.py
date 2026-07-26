@@ -193,31 +193,7 @@ def sauvegarder_logs():
 
 conversation_logs = charger_logs()
 
-# ============================================================
-# Startup events
-# ============================================================
-@app.on_event("startup")
-def startup_event():
-    """Initialiser les modeles au demarrage au lieu de la premiere requete"""
-    try:
-        print("Demarrage : Chargement du modele d'embedding...")
-        get_embedding_model()
-        print("✓ Modele d'embedding charge")
-        
-        print("Demarrage : Connexion a ChromaDB...")
-        get_collection()
-        print("✓ ChromaDB connecte")
-        
-        print("Demarrage : Initialisation du client GROQ...")
-        get_groq_client()
-        print("✓ Client GROQ initialise")
-        
-        print("✓ Service pret !")
-    except Exception as e:
-        print(f"❌ Erreur au demarrage: {e}")
-        raise
-
-print("Service RAG v2.0.0 en cours de demarrage...")
+print("Service pret (modeles charges a la premiere requete).")
 
 
 # ============================================================
@@ -576,6 +552,34 @@ app.add_middleware(
 )
 
 
+# ============================================================
+# Startup events
+# ============================================================
+@app.on_event("startup")
+def startup_event():
+    """Initialiser les modeles au demarrage au lieu de la premiere requete"""
+    try:
+        print("Demarrage : Chargement du modele d'embedding...")
+        get_embedding_model()
+        print("✓ Modele d'embedding charge")
+        
+        print("Demarrage : Connexion a ChromaDB...")
+        get_collection()
+        print("✓ ChromaDB connecte")
+        
+        print("Demarrage : Initialisation du client GROQ...")
+        get_groq_client()
+        print("✓ Client GROQ initialise")
+        
+        print("✓ Service pret !")
+    except Exception as e:
+        print(f"❌ Erreur au demarrage: {e}")
+        raise
+
+
+# ============================================================
+# Pydantic Models
+# ============================================================
 class HistoryItem(BaseModel):
     question: str
     reponse: str
