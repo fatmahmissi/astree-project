@@ -48,6 +48,12 @@ GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.2"))
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "500"))
 
+# Validation des variables critiques
+if not GROQ_API_KEY:
+    print("⚠️  ATTENTION: GROQ_API_KEY n'est pas definie !")
+else:
+    print(f"✓ GROQ_API_KEY configurée (modele: {GROQ_MODEL})")
+
 TOP_K_RETRIEVAL = 12
 TOP_K_FINAL = 5
 MAX_DISTANCE = 0.60
@@ -187,7 +193,31 @@ def sauvegarder_logs():
 
 conversation_logs = charger_logs()
 
-print("Service pret (modeles charges a la premiere requete).")
+# ============================================================
+# Startup events
+# ============================================================
+@app.on_event("startup")
+def startup_event():
+    """Initialiser les modeles au demarrage au lieu de la premiere requete"""
+    try:
+        print("Demarrage : Chargement du modele d'embedding...")
+        get_embedding_model()
+        print("✓ Modele d'embedding charge")
+        
+        print("Demarrage : Connexion a ChromaDB...")
+        get_collection()
+        print("✓ ChromaDB connecte")
+        
+        print("Demarrage : Initialisation du client GROQ...")
+        get_groq_client()
+        print("✓ Client GROQ initialise")
+        
+        print("✓ Service pret !")
+    except Exception as e:
+        print(f"❌ Erreur au demarrage: {e}")
+        raise
+
+print("Service RAG v2.0.0 en cours de demarrage...")
 
 
 # ============================================================
@@ -405,14 +435,15 @@ def generate_answer(question, context, chunks, history=None):
     if est_requete_contact_sans_preuve(question, context):
         return REFUS_EXACT
 
-    client = get_groq_client()
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
-    if history:
-        for h in history[-5:]:
-            messages.append({"role": "user", "content": h["question"]})
-            messages.append({"role": "assistant", "content": h["reponse"]})
+    try:
+        client = get_groq_client()
+        messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+        if history:
+            for h in history[-5:]:
+                messages.append({"role": "user", "content": h["question"]})
+                messages.append({"role": "assistant", "content": h["reponse"]})
 
-    prompt = f"""DOCUMENTS
+        prompt = f"""DOCUMENTS
 
 {context}
 
@@ -425,21 +456,24 @@ ecris uniquement la reponse en langage naturel, sans aucune reference ni
 etiquette. Si aucun document ne repond a la question, reponds exactement :
 Je n'ai pas trouve cette information dans la documentation ASTREE.
 """
-    messages.append({"role": "user", "content": prompt})
+        messages.append({"role": "user", "content": prompt})
 
-    response = client.chat.completions.create(
-        model=GROQ_MODEL,
-        messages=messages,
-        max_tokens=MAX_TOKENS,
-        temperature=TEMPERATURE,
-    )
+        response = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=messages,
+            max_tokens=MAX_TOKENS,
+            temperature=TEMPERATURE,
+        )
 
-    answer = nettoyer_reponse(response.choices[0].message.content)
+        answer = nettoyer_reponse(response.choices[0].message.content)
 
-    if _normaliser_accents("Je n'ai pas trouve cette information") not in _normaliser_accents(answer):
-        answer += construire_ligne_sources(chunks)
+        if _normaliser_accents("Je n'ai pas trouve cette information") not in _normaliser_accents(answer):
+            answer += construire_ligne_sources(chunks)
 
-    return answer
+        return answer
+    except Exception as e:
+        print(f"❌ Erreur GROQ: {e}")
+        raise Exception(f"Erreur lors de la generation de reponse: {str(e)}")
 
 
 def ask(question, history=None):
@@ -665,8 +699,18 @@ def ask_endpoint(payload: AskRequest):
         raise HTTPException(status_code=400, detail="La question ne peut pas etre vide.")
 
     debut = time.time()
-    history = [h.dict() for h in payload.history] if payload.history else None
-    reponse, chunks = ask(payload.question, history)
+    try:
+        history = [h.dict() for h in payload.history] if payload.history else None
+        reponse, chunks = ask(payload.question, history)
+    except Exception as e:
+        print(f"❌ ERREUR dans ask(): {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(
+            status_code=500, 
+            detail=f"Erreur interne du service RAG: {str(e)}"
+        )
+    
     duree_ms = int((time.time() - debut) * 1000)
 
     reponse_norm = _normaliser_accents(reponse)
