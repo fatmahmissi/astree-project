@@ -3,6 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const axios = require('axios');
 const swaggerUi = require('swagger-ui-express');
 
 const connecterMongoDB = require('./src/config/db');
@@ -19,8 +20,38 @@ app.use(express.json());
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use('/api', chatRoutes);
 
-app.get('/health', (req, res) => {
-  res.json({ status: 'ok', service: 'astree-chatbot-backend' });
+app.get('/health', async (req, res) => {
+  const RAG_SERVICE_URL = process.env.RAG_SERVICE_URL || 'http://localhost:8000';
+
+  // Basic local health info
+  const healthInfo = { status: 'ok', service: 'astree-chatbot-backend' };
+
+  try {
+    // Try RAG health endpoint first, fallback to base URL
+    const urlsToTry = [`${RAG_SERVICE_URL.replace(/\/$/, '')}/health`, RAG_SERVICE_URL];
+
+    let ragOk = false;
+    let ragResp = null;
+
+    for (const url of urlsToTry) {
+      try {
+        ragResp = await axios.get(url, { timeout: 3000 });
+        ragOk = ragResp.status >= 200 && ragResp.status < 300;
+        if (ragOk) break;
+      } catch (e) {
+        // ignore and try next
+      }
+    }
+
+    if (!ragOk) {
+      return res.status(503).json({ ...healthInfo, rag: 'unavailable' });
+    }
+
+    return res.json({ ...healthInfo, rag: 'available' });
+  } catch (err) {
+    console.error('Health check error:', err.message || err);
+    return res.status(503).json({ ...healthInfo, rag: 'error' });
+  }
 });
 
 // Sert le frontend build (React) depuis backend/public
