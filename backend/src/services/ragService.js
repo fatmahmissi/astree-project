@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const RAG_SERVICE_URL = process.env.RAG_SERVICE_URL || 'http://localhost:8000';
 const RETRY_STATUS = [502, 503, 504];
-const MAX_RETRIES = 2;
+const MAX_RETRIES = 3;
 
 function pause(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -24,7 +24,7 @@ async function interrogerRAG(question, historique = []) {
       const { data } = await axios.post(
         `${RAG_SERVICE_URL}/ask`,
         { question, history: historique },
-        { timeout: 60000 } // le LLM peut prendre plusieurs secondes
+        { timeout: 120000 } // augmenter le timeout à 120s pour les appels lents
       );
 
       const sources = Array.isArray(data.sources) ? data.sources : [];
@@ -44,10 +44,12 @@ async function interrogerRAG(question, historique = []) {
       const estTransitoire = status && RETRY_STATUS.includes(status);
 
       if (estTransitoire && tentative <= MAX_RETRIES) {
+        // backoff exponentiel: 500ms, 1000ms, 2000ms...
+        const delay = 500 * Math.pow(2, tentative - 1);
         console.warn(
-          `RAG service temporairement indisponible (status ${status}). Tentative ${tentative}/${MAX_RETRIES}. Reessai dans ${tentative * 500}ms.`
+          `RAG service temporairement indisponible (status ${status}). Tentative ${tentative}/${MAX_RETRIES}. Reessai dans ${delay}ms.`
         );
-        await pause(tentative * 500);
+        await pause(delay);
         continue;
       }
 

@@ -104,10 +104,12 @@ router.post('/chat', async (req, res, next) => {
       erreur.response?.status === 503 ||
       erreur.response?.status === 504
     ) {
+      // Journaliser l'erreur brute pour faciliter le debug côté serveur
+      console.error('Erreur brute du service RAG :', erreur);
+
+      // Toujours renvoyer un message convivial au client pour les erreurs transitoires
       erreur.status = 503;
-      if (!erreur.message.includes('service RAG')) {
-        erreur.message = 'Le service RAG est temporairement indisponible. Reessayez dans un instant.';
-      }
+      erreur.message = 'Le service de réponse est momentanément indisponible. Réessayez dans un instant.';
     }
     next(erreur);
   }
