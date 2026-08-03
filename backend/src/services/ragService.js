@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const RAG_SERVICE_URL = process.env.RAG_SERVICE_URL || 'http://localhost:8000';
 const RETRY_STATUS = [502, 503, 504];
-const MAX_RETRIES = 3;
+const MAX_RETRIES = 8;
 
 function pause(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -44,8 +44,8 @@ async function interrogerRAG(question, historique = []) {
       const estTransitoire = status && RETRY_STATUS.includes(status);
 
       if (estTransitoire && tentative <= MAX_RETRIES) {
-        // backoff exponentiel: 500ms, 1000ms, 2000ms...
-        const delay = 500 * Math.pow(2, tentative - 1);
+        // backoff progressif, plafonne a 15s : couvre le cold start Render (jusqu'a ~50-60s)
+        const delay = Math.min(3000 * tentative, 15000);
         console.warn(
           `RAG service temporairement indisponible (status ${status}). Tentative ${tentative}/${MAX_RETRIES}. Reessai dans ${delay}ms.`
         );
