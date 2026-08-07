@@ -134,7 +134,7 @@ REGLES OBLIGATOIRES :
 """
 
 # ============================================================
-# LAZY LOADING â€” modeles charges a la premiere requete uniquement
+# LAZY LOADING - modeles charges a la premiere requete uniquement
 # ============================================================
 _embedding_model = None
 _chroma_collection = None
@@ -562,15 +562,15 @@ def startup_event():
         print("Demarrage : Chargement du modele d'embedding...")
         get_embedding_model()
         print("✓ Modele d'embedding charge")
-        
+
         print("Demarrage : Connexion a ChromaDB...")
         get_collection()
         print("✓ ChromaDB connecte")
-        
+
         print("Demarrage : Initialisation du client GROQ...")
         get_groq_client()
         print("✓ Client GROQ initialise")
-        
+
         print("✓ Service pret !")
     except Exception as e:
         print(f"❌ Erreur au demarrage: {e}")
@@ -603,7 +603,14 @@ class AskResponse(BaseModel):
     duree_ms: int
 
 
-@app.get("/health")
+# ------------------------------------------------------------
+# /health : supporte GET et HEAD.
+# UptimeRobot (plan gratuit) envoie des requetes HEAD par defaut,
+# et le champ HTTP method est verrouille sur ce plan. On utilise
+# donc @app.api_route pour accepter les deux methodes plutot que
+# @app.get, qui ne repond pas explicitement a HEAD.
+# ------------------------------------------------------------
+@app.api_route("/health", methods=["GET", "HEAD"])
 def health():
     return {"status": "ok", "service": "astree-rag-v2"}
 
@@ -711,10 +718,10 @@ def ask_endpoint(payload: AskRequest):
         import traceback
         traceback.print_exc()
         raise HTTPException(
-            status_code=500, 
+            status_code=500,
             detail=f"Erreur interne du service RAG: {str(e)}"
         )
-    
+
     duree_ms = int((time.time() - debut) * 1000)
 
     reponse_norm = _normaliser_accents(reponse)
